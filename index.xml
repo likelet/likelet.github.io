@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qi Zhao&#39;s Profile on Qi Zhao&#39;s Profile</title>
-    <link>https://likelet.github.io/</link>
+    <link>/</link>
     <description>Recent content in Qi Zhao&#39;s Profile on Qi Zhao&#39;s Profile</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Example Page</title>
-      <link>https://likelet.github.io/tutorial/example/</link>
+      <link>/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/tutorial/example/</guid>
+      <guid>/tutorial/example/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Tabix your bed file to parse your bed quickly </title>
-      <link>https://likelet.github.io/post/2018-07-08-r-rmarkdown/</link>
+      <link>/post/2018-07-08-r-rmarkdown/</link>
       <pubDate>Fri, 20 Jul 2018 21:13:14 -0500</pubDate>
       
-      <guid>https://likelet.github.io/post/2018-07-08-r-rmarkdown/</guid>
+      <guid>/post/2018-07-08-r-rmarkdown/</guid>
       <description>
 
 &lt;h2 id=&#34;tabix-your-bed-file-to-parse-your-bed-quickly&#34;&gt;Tabix your bed file to parse your bed quickly&lt;/h2&gt;
@@ -109,10 +109,10 @@ The story is come from the user experience for strelka2. The strelka2 was publih
     
     <item>
       <title>Blogs_tips from old site</title>
-      <link>https://likelet.github.io/post/2018-07-20-r-rmarkdown/</link>
+      <link>/post/2018-07-20-r-rmarkdown/</link>
       <pubDate>Sun, 08 Jul 2018 21:13:14 -0500</pubDate>
       
-      <guid>https://likelet.github.io/post/2018-07-20-r-rmarkdown/</guid>
+      <guid>/post/2018-07-20-r-rmarkdown/</guid>
       <description>
 
 &lt;h1 id=&#34;blogs-tips&#34;&gt;Blogs_tips&lt;/h1&gt;
@@ -262,126 +262,112 @@ update.packages(checkBuilt=TRUE, ask=FALSE)&lt;/p&gt;&lt;/li&gt;
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CPT1A-mediated fatty acid oxidation promotes colorectal cancer cell metastasis by inhibiting anoikis</title>
-      <link>https://likelet.github.io/publication/wang2018cpt1a/</link>
+      <link>/publication/wang2018cpt1a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/wang2018cpt1a/</guid>
+      <guid>/publication/wang2018cpt1a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IDEA: a web server for Interactive Differential Expression Analysis with R Packages</title>
-      <link>https://likelet.github.io/publication/zhao2018idea/</link>
+      <link>/publication/zhao2018idea/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/zhao2018idea/</guid>
+      <guid>/publication/zhao2018idea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LncPipe: A Nextflow-based pipeline for identification and analysis of long non-coding RNAs from RNA-Seq data.</title>
-      <link>https://likelet.github.io/publication/zhao2018lncpipe/</link>
+      <link>/publication/zhao2018lncpipe/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/zhao2018lncpipe/</guid>
+      <guid>/publication/zhao2018lncpipe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ME1 Regulates NADPH Homeostasis to Promote Gastric Cancer Growth and Metastasis</title>
-      <link>https://likelet.github.io/publication/lu2018me1/</link>
+      <link>/publication/lu2018me1/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/lu2018me1/</guid>
+      <guid>/publication/lu2018me1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MicroRNA expression analysis of advanced colorectal cancer reveals a microRNA signature with prognostic and predictive value</title>
-      <link>https://likelet.github.io/publication/zeng2018microrna/</link>
+      <link>/publication/zeng2018microrna/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/zeng2018microrna/</guid>
+      <guid>/publication/zeng2018microrna/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pan-cancer analysis reveals m6A modification is functionally important in cancer</title>
-      <link>https://likelet.github.io/publication/zuo2018pan/</link>
+      <link>/publication/zuo2018pan/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/zuo2018pan/</guid>
+      <guid>/publication/zuo2018pan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The dysregulation of circadian genes across cancers</title>
-      <link>https://likelet.github.io/publication/liu2018dysregulation/</link>
+      <link>/publication/liu2018dysregulation/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/liu2018dysregulation/</guid>
+      <guid>/publication/liu2018dysregulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The genomic landscape of small cell carcinoma of the esophagus</title>
-      <link>https://likelet.github.io/publication/wang2018genomic/</link>
+      <link>/publication/wang2018genomic/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/wang2018genomic/</guid>
+      <guid>/publication/wang2018genomic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Whole exome and target sequencing identifies MAP2K5 as novel susceptibility gene for familial non-medullary thyroid carcinoma</title>
-      <link>https://likelet.github.io/publication/ye2018whole/</link>
+      <link>/publication/ye2018whole/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/ye2018whole/</guid>
+      <guid>/publication/ye2018whole/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bilateral pelvic lymph node dissection for Chinese patients with penile cancer: a multicenter collaboration study</title>
-      <link>https://likelet.github.io/publication/li2017bilateral/</link>
+      <link>/publication/li2017bilateral/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/li2017bilateral/</guid>
+      <guid>/publication/li2017bilateral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Circulating tumour DNA methylation markers for diagnosis and prognosis of hepatocellular carcinoma</title>
-      <link>https://likelet.github.io/publication/xu2017circulating/</link>
+      <link>/publication/xu2017circulating/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
-      <guid>https://likelet.github.io/publication/xu2017circulating/</guid>
+      <guid>/publication/xu2017circulating/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>https://likelet.github.io/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
-      
-      <guid>https://likelet.github.io/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
