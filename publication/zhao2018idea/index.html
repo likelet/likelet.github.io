@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="High-throughput sequencing technology is rapidly becoming the standard method for measuring gene expression at the transcriptional level. One of the main goals of such work is to identify differentially expressed genes under two or more conditions. A number of computational tools , such as DESeq (Anders and Huber 2010) (updated as DESeq2 (Love, Huber et al. 2014)), edgeR (Robinson, McCarthy et al. 2010, Zhou, Lindsay et al. 2014), NOISeq (Tarazona, García-Alcalde et al. 2011), PoissonSeq (Li, Witten et al. 2011), and SAMseq (samr) (Li and Tibshirani 2013) and Cuffdiff (Trapnell, et al., 2013) have been developed for the analysis of differential gene expression from patterns in RNA-seq data. Most of these tools are implemented in R language, which is commonly used for the analysis of high-dimensional expression data. However, a fairly high level of programing skill is required when applying these R tools to screen out differentially expressed genes, greatly hindering the application of these tools since many biology researchers have little programing experience. Beyond this problem, due to a lack of an interactive interface in these tools, it is inconvenient to adjust the analytical parameters, even for advanced users. Moreover, since different packages generate inconsistent results, an interactive platform that combines these tools together is necessary for obtaining more solid analysis results.To address the above issues, here we introduce the Interactive Differential Expression Analyzer (IDEA), a Shiny-based web application dedicated to the identification of differential expression genes in an interactive way. IDEA was built as a user-friendly and highly interactive utility using the Shiny (RStudio Inc. 2014) package in R. Currently, five relevant R packages are integrated into IDEA. IDEA is capable of visualizing the results with plenty of charts and tables, as well as providing great ease of interaction during the course of the analysis.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://likelet.github.io/publication/zhao2018idea/">
+  <link rel="alternate" hreflang="en-us" href="/publication/zhao2018idea/">
 
   
 
@@ -53,9 +53,7 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
       
     
 
@@ -75,32 +73,46 @@
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-127842796-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
-  <link rel="alternate" href="https://likelet.github.io/index.xml" type="application/rss+xml" title="Academic">
-  <link rel="feed" href="https://likelet.github.io/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Qi Zhao&#39;s Profile">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Qi Zhao&#39;s Profile">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://likelet.github.io/publication/zhao2018idea/">
+  <link rel="canonical" href="/publication/zhao2018idea/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@qi_likelet">
   <meta property="twitter:creator" content="@qi_likelet">
   
-  <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://likelet.github.io/publication/zhao2018idea/">
-  <meta property="og:title" content="IDEA: a web server for Interactive Differential Expression Analysis with R Packages | Academic">
-  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Qi Zhao&#39;s Profile">
+  <meta property="og:url" content="/publication/zhao2018idea/">
+  <meta property="og:title" content="IDEA: a web server for Interactive Differential Expression Analysis with R Packages | Qi Zhao&#39;s Profile">
+  <meta property="og:description" content="High-throughput sequencing technology is rapidly becoming the standard method for measuring gene expression at the transcriptional level. One of the main goals of such work is to identify differentially expressed genes under two or more conditions. A number of computational tools , such as DESeq (Anders and Huber 2010) (updated as DESeq2 (Love, Huber et al. 2014)), edgeR (Robinson, McCarthy et al. 2010, Zhou, Lindsay et al. 2014), NOISeq (Tarazona, García-Alcalde et al. 2011), PoissonSeq (Li, Witten et al. 2011), and SAMseq (samr) (Li and Tibshirani 2013) and Cuffdiff (Trapnell, et al., 2013) have been developed for the analysis of differential gene expression from patterns in RNA-seq data. Most of these tools are implemented in R language, which is commonly used for the analysis of high-dimensional expression data. However, a fairly high level of programing skill is required when applying these R tools to screen out differentially expressed genes, greatly hindering the application of these tools since many biology researchers have little programing experience. Beyond this problem, due to a lack of an interactive interface in these tools, it is inconvenient to adjust the analytical parameters, even for advanced users. Moreover, since different packages generate inconsistent results, an interactive platform that combines these tools together is necessary for obtaining more solid analysis results.To address the above issues, here we introduce the Interactive Differential Expression Analyzer (IDEA), a Shiny-based web application dedicated to the identification of differential expression genes in an interactive way. IDEA was built as a user-friendly and highly interactive utility using the Shiny (RStudio Inc. 2014) package in R. Currently, five relevant R packages are integrated into IDEA. IDEA is capable of visualizing the results with plenty of charts and tables, as well as providing great ease of interaction during the course of the analysis.">
   
   
     
-  <meta property="og:image" content="https://likelet.github.io/img/icon-192.png">
+  <meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-01-01T00:00:00&#43;08:00">
@@ -112,7 +124,7 @@
 
   
 
-  <title>IDEA: a web server for Interactive Differential Expression Analysis with R Packages | Academic</title>
+  <title>IDEA: a web server for Interactive Differential Expression Analysis with R Packages | Qi Zhao&#39;s Profile</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -121,7 +133,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Qi Zhao&#39;s Profile</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -222,9 +234,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/tutorial/">
+          <a class="nav-link" href="/files/cv.pdf">
             
-            <span>Tutorials</span>
+            <span>CV</span>
             
           </a>
         </li>
@@ -298,7 +310,7 @@
   <div>
     
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Qi Zhao</span>
+      <span itemprop="name">***Qi Zhao***</span>
     </span>, 
     
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
@@ -348,6 +360,9 @@
 
   
   
+  <span class="middot-divider"></span>
+  <a href="/publication/zhao2018idea/#disqus_thread"></a>
+  
 
   
 
@@ -357,35 +372,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages&amp;url=https%3a%2f%2flikelet.github.io%2fpublication%2fzhao2018idea%2f"
+         href="https://twitter.com/intent/tweet?text=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages&amp;url=%2fpublication%2fzhao2018idea%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flikelet.github.io%2fpublication%2fzhao2018idea%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fzhao2018idea%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flikelet.github.io%2fpublication%2fzhao2018idea%2f&amp;title=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fzhao2018idea%2f&amp;title=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flikelet.github.io%2fpublication%2fzhao2018idea%2f&amp;title=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fzhao2018idea%2f&amp;title=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages&amp;body=https%3a%2f%2flikelet.github.io%2fpublication%2fzhao2018idea%2f">
+         href="mailto:?subject=IDEA%3a%20a%20web%20server%20for%20Interactive%20Differential%20Expression%20Analysis%20with%20R%20Packages&amp;body=%2fpublication%2fzhao2018idea%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -404,6 +419,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">High-throughput sequencing technology is rapidly becoming the standard method for measuring gene expression at the transcriptional level. One of the main goals of such work is to identify differentially expressed genes under two or more conditions. A number of computational tools , such as DESeq (Anders and Huber 2010) (updated as DESeq2 (Love, Huber et al. 2014)), edgeR (Robinson, McCarthy et al. 2010, Zhou, Lindsay et al. 2014), NOISeq (Tarazona, García-Alcalde et al. 2011), PoissonSeq (Li, Witten et al. 2011), and SAMseq (samr) (Li and Tibshirani 2013) and Cuffdiff (Trapnell, et al., 2013) have been developed for the analysis of differential gene expression from patterns in RNA-seq data. Most of these tools are implemented in R language, which is commonly used for the analysis of high-dimensional expression data. However, a fairly high level of programing skill is required when applying these R tools to screen out differentially expressed genes, greatly hindering the application of these tools since many biology researchers have little programing experience. Beyond this problem, due to a lack of an interactive interface in these tools, it is inconvenient to adjust the analytical parameters, even for advanced users. Moreover, since different packages generate inconsistent results, an interactive platform that combines these tools together is necessary for obtaining more solid analysis results.To address the above issues, here we introduce the Interactive Differential Expression Analyzer (IDEA), a Shiny-based web application dedicated to the identification of differential expression genes in an interactive way. IDEA was built as a user-friendly and highly interactive utility using the Shiny (RStudio Inc. 2014) package in R. Currently, five relevant R packages are integrated into IDEA. IDEA is capable of visualizing the results with plenty of charts and tables, as well as providing great ease of interaction during the course of the analysis.</p>
     
 
     
@@ -517,6 +535,10 @@
 <div class="container">
   <footer class="site-footer">
   
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
 
   <p class="powered-by">
     &copy; 2018 &middot; 
@@ -583,6 +605,22 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
         
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/perl.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pre.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cpp.min.js"></script>
+        
       
 
       
@@ -597,6 +635,8 @@
 
     
     
+    
+    <script id="dsq-count-scr" src="//qz.disqus.com/count.js" async></script>
     
 
     
