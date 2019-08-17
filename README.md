@@ -1,2 +1,2 @@
 # likelet.github.io
-A simple website site for intruducing my self
+A simple website site for making me knowing by others 
