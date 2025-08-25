@@ -7,3 +7,9 @@
 .cta-group {
   justify-content: center;
 }
+
+/* 让 markdown 区块和 hero 区块字体大小一致 */
+.markdown-widget {
+  font-size: 1.35rem; // 替换为 hero block 实际 font-size
+}
+.home-section p { font-size: 1.35rem; }

@@ -1,0 +1,58 @@
+{{ $pub := .pub }}
+{{ $ctx := .ctx }}
+
+<div class="col-lg-6 col-md-12 mb-4">
+  <div class="card h-100 shadow-sm border-0">
+    <!-- 图片容器 (包含错误处理) -->
+    {{ if $pub.image }}
+      {{ $imgPath := printf "images/%s" $pub.image }}
+      {{ $img := $ctx.Resources.GetMatch $imgPath }}
+      
+      <div class="publication-img-container">
+        {{ if $img }}
+          <img 
+            src="{{ $img.RelPermalink }}" 
+            class="publication-img" 
+            alt="{{ $pub.title }}" 
+            title="{{ $pub.title }}"
+          >
+        {{ else }}
+          <!-- 图片加载失败的占位符 -->
+          <div class="img-error text-center py-5">
+            <i class="fas fa-image fa-3x text-muted mb-3"></i>
+            <p class="mb-0">Image not found: {{ $pub.image }}</p>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+    
+    <div class="card-body px-4 py-3">
+      <!-- 标题 -->
+      <h5 class="card-title mb-3 fw-bold">{{ $pub.title }}</h5>
+      
+      <!-- 描述 -->
+      <div class="card-text mb-3">
+        {{ $pub.description | safeHTML }}
+      </div>
+      
+      <!-- 作者列表 - 解析加粗标记 -->
+      <div class="authors-list mb-3">
+        {{ if $pub.authors }}
+          {{ $pub.authors | safeHTML }}  <!-- 直接显示原始作者信息 -->
+        {{ else }}
+          <span class="text-danger">Author information missing</span>
+        {{ end }}
+      </div>
+      
+      <!-- 发布信息链接 -->
+      <a 
+        href="{{ $pub.link.url }}" 
+        class="btn btn-outline-primary"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ $pub.link.display | truncate 60 }}
+      </a>
+    </div>
+  </div>
+</div>

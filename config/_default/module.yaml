@@ -3,8 +3,20 @@
 ## Install or uninstall themes and plugins here.
 ## Docs: https://gohugo.io/hugo-modules/
 ############################
-
+proxy: https://goproxy.cn
 imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+
+replacements:
+  # 核心覆盖规则
+  - "github.com/HugoBlox/hugo-blox-builder/layouts/publications/* -> layouts/publications/*"
+  - "github.com/HugoBlox/hugo-blox-builder/layouts/partials/publication_* -> layouts/partials/publication_*"
+  
+  # 特殊文件覆盖
+  - "github.com/HugoBlox/hugo-blox-builder/layouts/partials/publications_custom.html -> layouts/partials/publications_custom.html"
+  
+# 优化设置
+build:
+  noJS: true

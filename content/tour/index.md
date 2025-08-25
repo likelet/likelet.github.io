@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
+      - title: 👋 Welcome to the Zhao Qi Team
         content: Take a look at what we're working on...
         align: center
         background:
@@ -29,7 +29,7 @@ sections:
           position: center
           color: '#555'
       - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+        content: 'Come and join us!'
         align: right
         background:
           image:

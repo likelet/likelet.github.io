@@ -8,14 +8,38 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Welcome to the
+        ZHAO Qi Team
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        We are a team of bioinformatic researchers at the [Sun Yat-sen university Cancer Center](https://www.sysucc.org.cn/), specializing in GI cancer research. Our team is also part of the bioinformatic platform led by Professor REN Jian, which you can learn more about at https://renlab.org/.
+
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        Our research focuses on developing new algorithms, applications, and database tools to analyze GI cancer omic data. We also use machine-learning approaches to identify biomarkers for tumor diagnosis and prognosis.
+
+        Currently, we are working on several fields, including:
+
+        **Exploration of Biomarkers for Cancer Immunotherapy**
+
+        **Developing Software and Database related to Cancer genomics**
+
+        **Developing novel targeting treatment strategies for GI cancers**
+
+        **Build Machine Learning based models for cancer diagnosis and prognosis**
+
+        **Gut Microbiota and tumor Microenvirment in Cancer Immunotherapy**
+    design:
+      columns: '1' 
+      background:
+        color: "white"           # 与 hero block 相同
+        text_color_light: false  # 与 hero block 相同
   
   - block: collection
     content:

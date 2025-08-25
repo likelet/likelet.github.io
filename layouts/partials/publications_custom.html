@@ -1,0 +1,41 @@
+{{/* 支持参数 type: "highlight" 或 "all" */}}
+
+{{ $type := .type | default "all" }}
+{{ $ctx := .context | default . }}
+{{ $yamlFile := $ctx.Page.Resources.GetMatch "publications.yaml" }}
+{{ $publications := "" }}
+
+{{ if $yamlFile }}
+  {{ $publications = $yamlFile.Content | transform.Unmarshal }}
+{{ else }}
+  <p class="alert alert-danger">Publications data not found.</p>
+  {{ return }}
+{{ end }}
+
+{{ if eq $type "highlight" }}
+  <!-- 只显示高亮出版物 -->
+  <section class="publication-highlights">
+    <div class="row">
+      {{ range where $publications "highlight" 1 }}
+        {{ partial "publication_card" (dict "pub" . "ctx" $ctx) }}
+      {{ end }}
+    </div>
+  </section>
+{{ else }}
+  <!-- 只显示全部出版物 -->
+  <section class="publication-full mt-5">
+    {{ $years := seq 2024 -1 2014 }}
+    {{ range $years }}
+      {{ $year := . }}
+      {{ $pubs := where $publications "year" "==" $year }}
+      {{ if $pubs }}
+        <h3 class="mt-4">{{ $year }}</h3>
+        <div class="publication-list">
+          {{ range sort $pubs "number" "desc" }}
+            {{ partial "publication_item" (dict "pub" . "ctx" $ctx) }}
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </section>
+{{ end }}

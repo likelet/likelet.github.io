@@ -1,0 +1,15 @@
+{{ $pub := .pub }}
+<div class="publication-item mb-3">
+  <strong>[{{ $pub.number }}]</strong> 
+  <a href="{{ $pub.link.url }}" class="text-decoration-none">{{ $pub.title }}</a>
+  <div class="text-muted">{{ $pub.authors | safeHTML }}</div>
+  <div><small>{{ $pub.link.display }}</small></div>
+</div>
+
+<div class="text-muted">
+  {{ if $pub.authors }}
+    {{ $pub.authors | safeHTML }}
+  {{ else }}
+    <span>No author info</span>
+  {{ end }}
+</div>

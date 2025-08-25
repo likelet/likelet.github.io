@@ -1,0 +1,121 @@
+// 出版物页面样式
+.publication-item {
+  border-left: 3px solid theme-color("primary");
+  padding-left: 15px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: rgba(theme-color("primary"), 0.05);
+    padding-left: 20px;
+  }
+}
+
+.publication-highlights .card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  }
+}
+/* 作者列表样式 */
+.authors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  
+  .author-name {
+    margin-right: 0.3rem;
+    
+    &:not(:last-child):after {
+      content: ",";
+    }
+    
+    &.font-bold {
+      font-weight: 700;
+      color: #1a56db;
+    }
+  }
+}
+
+/* 图片容器 */
+.publication-img-container {
+  overflow: hidden;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+  border-bottom: 1px solid #eee;
+}
+
+.publication-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+    padding-bottom: 0.8rem;
+    
+    &:after {
+      width: 80px;
+      height: 3px;
+    }
+  }
+  
+  .section-subtitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    
+    &:after {
+      width: 60px;
+      height: 2px;
+    }
+  }
+}
+/* 加亮显示Qi Zhao */
+strong {
+  color: #1e40af;
+  font-weight: 700;
+}
+
+/* 统一标题样式 */
+.publications-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  position: relative;
+  padding-bottom: 1rem;
+  
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 4px;
+    background: #3a86ff;
+  }
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 3rem 0 1.5rem;
+  color: #3498db;
+}
