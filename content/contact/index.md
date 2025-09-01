@@ -9,20 +9,20 @@ sections:
     content:
       title: Contact
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+       We extend our warmest welcome to those who are interested in joining our research team! If you are passionate about our work and would like to explore potential opportunities for collaboration or membership, please feel free to reach out to us. To express your interest, kindly fill in your name, email address, and a brief message in the form below. We will get back to you as soon as possible to discuss further possibilities. We sincerely look forward to hearing from you and hope to establish a productive and inspiring cooperation.
       email: zhaoqi@sysucc.org.cn
       phone: 888 888 88 88
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        street: 651 Dongfeng East Road
+        city: Guangzhou
+        region: Guangdong
+        postcode: "510060"
+        country: China
+        country_code: CN
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        latitude: "23.1291"
+        longitude: "113.3002"
+      directions: Enter the main building and take the elevator to the 20th floor.
       office_hours:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'

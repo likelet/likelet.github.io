@@ -99,17 +99,15 @@ strong {
   color: #2c3e50;
   position: relative;
   padding-bottom: 1rem;
-  
-  &:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 120px;
-    height: 4px;
-    background: #3a86ff;
-  }
+}
+
+.pubs-intro {
+  display: block;
+  text-align: center;
+  font-size: 1.35rem; /* 比正文大 */
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  color: #444;
 }
 
 .section-subtitle {

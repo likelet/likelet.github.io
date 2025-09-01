@@ -13,3 +13,42 @@
   font-size: 1.35rem; // 替换为 hero block 实际 font-size
 }
 .home-section p { font-size: 1.35rem; }
+
+.publications-title {
+  text-align: center;
+  font-size: 2.25em;
+  font-family: "", sans-serif;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1.0rem;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizelegibility;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: "", sans-serif;
+  font-weight: 400;
+  margin-top: 1.0rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+  color: #313131;
+}
+
+.pubs-intro {
+  display: block;
+  text-align: left;
+  font-family: "", sans-serif;
+  font-size: 1.35rem;
+  margin-bottom: 1.0rem;
+  margin-top: 1rem;
+  color: #313131;
+}

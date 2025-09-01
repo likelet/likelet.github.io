@@ -16,5 +16,7 @@ design:
 ---
 
 
-For a full list of publications and patents see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.ch/citations?user=j7LCthMAAAAJ), [ReseachGate ID](https://www.researchgate.net/profile/Qi-Zhao-27)
+<span class="pubs-intro">
+For a full list of publications and patents see below or go to <a href="https://scholar.google.ch/citations?user=j7LCthMAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Qi-Zhao-27" target="_blank">ReseachGate ID</a>
+</span>
 

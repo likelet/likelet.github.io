@@ -1,13 +1,13 @@
 {{ define "main" }}
 <div class="container">
-  <h1>{{ .Title }}</h1>
+  <h1 class="publications-title">{{ .Title }}</h1>
   <div class="publications-content">
     {{ .Content }}
 
-    <h2>Group Highlights</h2>
+    <h2 class="section-subtitle">Group Highlights</h2>
     {{ partial "publications_custom.html" (dict "type" "highlight" "context" .) }}
 
-    <h2>Selected Publications</h2>
+    <h2 class="section-subtitle">Selected Publications</h2>
     {{ partial "publications_custom.html" (dict "type" "all" "context" .) }}
   </div>
 </div>
