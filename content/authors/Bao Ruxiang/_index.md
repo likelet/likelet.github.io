@@ -23,7 +23,7 @@ organizations:
     url: 'http://sysucc.org.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Undergraduate Students, Lanzhou University.
+bio: BS in Lanzhou University.
 
 interests:
   - Artificial Intelligence

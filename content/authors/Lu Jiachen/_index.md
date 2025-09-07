@@ -1,15 +1,15 @@
 ---
 # Display name
-title: Ye Yulin
+title: Lu Jiachen
 
 # Full name (for SEO)
 first_name: 
 last_name: 
-weight: 80
+weight: 30
 
 # Username (this should match the folder name)
 authors:
-  - Ye Yulin
+  - Lu Jiachen
 
 # Is this the primary user of the site?
 superuser: false
@@ -23,7 +23,7 @@ organizations:
     url: 'http://sysucc.org.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio:  B.SC.(Agr.) in Sicau Agricultural University
+bio: Undergraduate Students, Lanzhou University.
 
 interests:
   - Artificial Intelligence
@@ -32,9 +32,9 @@ interests:
 
 education:
   courses:
-    - course: B.SC.(Agr.) in Sicau Agricultural University
-      institution: Sicau Agricultural University
-      year: 2025
+    - course: BS in Nanchang University
+      institution: Nanchang University
+      year: 2023
     
     
 
@@ -61,7 +61,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Team members
+  - Joint students
 ---
 
 吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

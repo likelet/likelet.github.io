@@ -1,15 +1,15 @@
 ---
 # Display name
-title: Bao Ruxiang
+title: Wei Hanlu
 
 # Full name (for SEO)
 first_name: 
 last_name: 
-weight: 60
+weight: 70
 
 # Username (this should match the folder name)
 authors:
-  - Bao Ruxiang
+  - Wei Hanlu
 
 # Is this the primary user of the site?
 superuser: false
