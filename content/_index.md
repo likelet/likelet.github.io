@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        We are a team of bioinformatic researchers at the [Sun Yat-sen university Cancer Center](https://www.sysucc.org.cn/), specializing in GI cancer research. Our team is also part of the bioinformatic platform led by Professor REN Jian, which you can learn more about at https://renlab.org/.
+        We are a team of bioinformatic researchers at the [Sun Yat-sen university Cancer Center](https://www.sysucc.org.cn/), specializing in GI cancer research.
 
   - block: markdown
     content:

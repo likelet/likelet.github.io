@@ -1,5 +1,5 @@
 ---
-title:| Dr. Xu’s Team Reports Key Findings from the “Chankang Project”: Mitochondrial Genomic Alterations Define a Subgroup in 1015 Chinese Colorectal Cancer Patients
+title: Dr. Xu’s Team Reports Key Findings from the “Chankang Project”:Mitochondrial Genomic Alterations Define a Subgroup in 1015 Chinese Colorectal Cancer Patients
 date: 2022-04-29
 image:
   focal_point: 'top'
