@@ -1,2 +1,2 @@
-# Homepage for Qi Zhao’s Team for cancer bioinformatics 
+# Homepage for Qi Zhao’s Team of cancer bioinformatics 
 
