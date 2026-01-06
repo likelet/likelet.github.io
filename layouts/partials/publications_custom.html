@@ -24,7 +24,7 @@
 {{ else }}
   <!-- 只显示全部出版物 -->
   <section class="publication-full mt-5">
-    {{ $years := seq 2025 -1 2014 }}
+    {{ $years := seq 2100 -1 2014 }}
     {{ range $years }}
       {{ $year := . }}
       {{ $pubs := where $publications "year" "==" $year }}
