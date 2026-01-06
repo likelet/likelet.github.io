@@ -1,3 +1,102 @@
+- title: "Paneth-like transition drives resistance to dual targeting of KRAS and EGFR in colorectal cancer."
+  number: 49
+  image:  
+  authors: Zhang Y, Chen J, She Y, Fang Z, Zhang Y, Ruan D, Guo W, Liao J, Zhou W, Lao J, Fang W, Pan X, Kang W, Wang Z, Wu Y, Deng R, Tian L, Wang L, Huang H, Zheng J, Yan Y, Lu H, Wang R, Yaeger R, <strong>Zhao Q*</strong>, Liao W, Wang F, Gao Y
+  description:  While dual KRAS and epidermal growth factor receptor (EGFR) inhibition shows promise in treating KRAS-mutant colorectal cancer (CRC), resistance remains a major challenge. Using genetically engineered mouse models, patient-derived organoids and xenografts, as well as clinical specimens, we discover that colorectal tumors surviving combined KRAS and EGFR inhibition acquire a Paneth-like cell state-a secretory lineage typically confined to the intestinal crypt. Lineage tracing reveals that CRC cells evade dual therapy by transitioning into a Paneth-like state. Through integrated transcriptomic analysis and CRISPR genetic screening, we identify SMAD1 as a key regulator of this lineage plasticity, promoting resistance by directly activating FGFR3. Genetic or pharmacological inhibition of FGFR3 prevents the Paneth-like transition, restores drug sensitivity, and synergizes with KRAS-EGFR inhibition across multiple preclinical models. These findings reveal that the SMAD1-FGFR3 axis triggers Paneth-like plasticity to drive KRAS-EGFR dual therapy resistance in CRC and highlight FGFR3 blockade as a promising strategy to overcome plasticity-driven drug tolerance.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/41237766/
+    display: Cancer cell, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "Alleviated T cell exhaustion and SLC1A3-mediated stroma-remodelling dictate chemoimmunotherapy efficacy in oesophageal squamous cell carcinoma."
+  number: 48
+  image:  
+  authors: Xiang S, Chen Y, Wang C, Wang M, He Y, Liu Z, Zhang JL, Yang LP, Wei YF, Wu QN, Wang ZX, Xi SY, Li Z, <strong>Zhao Q*</strong>, Xu RH, Wang F
+  description:  Combining chemotherapy with anti-programmed cell death protein-1 (PD-1) improves clinical outcomes in oesophageal squamous cell carcinoma (ESCC), yet the underlying synergistic mechanism remains obscured. Moreover, 30-50% of patients still derive no therapeutic benefit from the combination strategy, highlighting the need to decipher and overcome resistance.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/40983502/
+    display: Gut, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "IGF-1-mediated upregulation of gut Blautia correlates with inflammatory markers in growth hormone-secreting pituitary adenomas."
+  number: 47
+  image:  
+  authors: Deng Z, Chen S, She Y, Zou Y, Yan Z, Cheng J, Yue G, Li D, <strong>Zhao Q*</strong>, Zhao X, Jiang X
+  description:  
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/40320142/
+    display: Journal of genetics and genomics = Yi chuan xue bao, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "CaMutQC: An R package for integrative quality control and filtration of cancer somatic mutations."
+  number: 46
+  image:  
+  authors: Wang X, Jiang T, Shen A, Chen Y, Zhou Y, Liu J, Zhao S, Chen S, Ren J, <strong>Zhao Q*</strong>
+  description:  The quality control and filtration of cancer somatic mutations (CAMs), including the elimination of false positives due to technical bias and the selection of key mutation candidates, are crucial steps for downstream analysis in cancer genomics. However, due to diverse needs and the lack of standardized filtering criteria, the filtering strategies applied vary from study to study, often resulting in reduced efficiency, accuracy, and reproducibility. Here, we present CaMutQC, a heuristic quality control and soft-filtering R/Bioconductor package designed specifically for CAMs. CaMutQC enables users to remove false positive mutations, select potential mutation candidates, and estimate Tumor Mutation Burden (TMB) with a single line of code, using either default or customized parameters. A filter report and a code log can also be generated after the filtration process to facilitate reproducibility and comparison. The application of CaMutQC to a Whole-exome Sequencing (WES) benchmark dataset demonstrated its strong capability by eliminating 85.55 % of false positive Single nucleotide variants (SNVs) while retaining 90.72 % of true positive SNVs. Additionally, an additional 11.56 % of true positive SNVs were rescued through CaMutQC's built-in union strategy. Similar results were observed for Insertions and Deletions (INDELs). CaMutQC is freely available through Bioconductor at https://bioconductor.org/packages/CaMutQC/ under the GPL v3 license.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/40727424/
+    display: Computational and structural biotechnology journal, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "Dissecting small cell carcinoma of the esophagus ecosystem by single-cell transcriptomic analysis."
+  number: 45
+  image:  
+  authors: Wu HX, Chen YK, Wang YN, Chen JY, Xiang SJ, Jin Y, Wang ZX, Huang CY, Yang LP, He Y, Guan WL, Bai L, Chen YX, Wang M, Wang CY, Huang RJ, Huang Y, Zhang JL, Lv ZD, Yang SQ, Xu RH, <strong>Zhao Q*</strong>, Wang F
+  description:  Small cell carcinoma of the esophagus (SCCE) is an aggressive and rare neuroendocrine malignancy with poor prognosis. Here, we firstly performed single-cell transcriptional profiling derived from 10 SCCE patients, with normal esophageal mucosa, adjacent non-malignant tissue and tumors from esophageal squamous cell carcinoma (ESCC) as reference. We observed enrichment of activated regulatory T cells and an angiogenesis-induced niche existed in SCCE compared with ESCC, revealing an immune suppressive and vessel-induced tumor microenvironment (TME) in SCCE. Totally, we identified five TME ecotypes (EC1 ~ 5). Notably, EC1 was highly enriched in SCCE, associating with molecular subtyping and survival outcomes. To dissecting heterogeneity of epithelium in SCCE, we constructed eight transcriptional metaprograms (MPs) that underscored significant heterogeneity of SCCE. High expression of MP5 was linked to neuroendocrine phenotype and poor clinical survival. Collectively, these results, for the first time, systematically deciphered the TME and epithelial heterogeneity of SCCE and provided evidences that SCCE patients might benefit from anti-angiogenesis therapy.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/40375239/
+    display: Molecular cancer, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "Individualized metagenomic network model for colorectal cancer diagnosis: insights into viral regulation of gut microecology."
+  number: 44
+  image:  
+  authors: Qian LM, Wang SX, Zhou W, Qin ZX, Wang YN, <strong>Zhao Q*</strong>, Xu RH
+  description:  The role of gut microbiota, especially viruses, in colorectal cancer (CRC) pathogenesis remains unclear. This study investigated the interplay between gut microbiota and CRC development. We developed a viral/bacterial sequence analysis pipeline to reanalyze gut metagenomic datasets from eight CRC studies. A multisample co-occurrence network was constructed to delineate microbiota species interconnections. Our analysis confirmed dysbiosis in CRC patients and revealed enrichment of viral species, particularly those hosted by Lactococcus and Escherichia. These viruses were identified as central hubs in the multikingdom interaction network. We developed a network-based model using single sample networks (SSN) that distinguished CRC patients from controls with an area under the curve (AUC) of 0.93. Models combining relative abundance and SSN assessment achieved an AUC of 0.97, outperforming SSN-based models without viral data. This study highlights the crucial role of viruses in the gut microbiome network and their potential as targets for CRC prevention and intervention. Our approach offers a new perspective on noninvasive diagnostic criteria for CRC.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/40462511/
+    display: Briefings in bioinformatics, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "Deep learning prioritizes cancer mutations that alter protein nucleocytoplasmic shuttling to drive tumorigenesis."
+  number: 43
+  image:  
+  authors: Zheng Y, Yu K, Lin JF, Liang Z, Zhang Q, Li J, Wu QN, He CY, Lin M, <strong>Zhao Q*</strong>, Zuo ZX, Ju HQ, Xu RH, Liu ZX
+  description:  Genetic variants can affect protein function by driving aberrant subcellular localization. However, comprehensive analysis of how mutations promote tumor progression by influencing nuclear localization is currently lacking. Here, we systematically characterize potential shuttling-attacking mutations (SAMs) across cancers through developing the deep learning model pSAM for the ab initio decoding of the sequence determinants of nucleocytoplasmic shuttling. Leveraging cancer mutations across 11 cancer types, we find that SAMs enrich functional genetic variations and critical genes in cancer. We experimentally validate a dozen SAMs, among which R14M in PTEN, P255L in CHFR, etc. are identified to disrupt the nuclear localization signals through interfering their interactions with importins. Further studies confirm that the nucleocytoplasmic shuttling altered by SAMs in PTEN and CHFR rewire the downstream signaling and eliminate their function of tumor suppression. Thus, this study will help to understand the molecular traits of nucleocytoplasmic shuttling and their dysfunctions mediated by genetic variants.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/40087285/
+    display: Nature communications, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "Data-Driven Molecular Typing: A New Frontier in Esophageal Cancer Management."
+  number: 42
+  image:  
+  authors: Du Y, Gu B, Shi L, She Y, <strong>Zhao Q*</strong>, Gao S
+  description:  Esophageal squamous cell carcinoma (ESCC) is a predominant and highly lethal form of esophageal cancer, with a five-year survival rate below 20%. Despite advancements, most patients are diagnosed at advanced stages, limiting effective treatment options. Multi-omics integration, encompassing somatic genomic alterations, inherited genetic mutations, transcriptomics, proteomics, metabolomics, and single-cell sequencing, has enabled the identification of distinct molecular subtypes of ESCC.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/40018789/
+    display: Cancer medicine, 2025.
+  highlight: 0
+  year: 2025
+
+- title: "Improving doublet cell removal efficiency through multiple algorithm runs."
+  number: 41
+  image:  
+  authors: She Y, Wang C, <strong>Zhao Q*</strong>
+  description:  Doublets are a key confounding factor in the analysis of scRNA-seq data, as they can interfere with differential expression analysis and disrupt developmental trajectories. However, due to the randomness of the algorithms, most doublet removal methods still leave a certain proportion of doublets after application. In this study, we proposed a multi-round doublet removal (MRDR) strategy, that ran the algorithm in cycles multiple times to effectively reduce randomness while enhancing the effectiveness of doublet removal. We evaluated the MRDR strategy in 14 real-world datasets, 29 barcoded scRNA-seq datasets, and 106 synthetic datasets with four popular doublet detection tools, including DoubletFinder, cxds, bcds, and hybrid. We found that in real-world datasets, the DoubletFinder had a better performance in MRDR strategy compared to a single removal of doublets and the recall rate improved by 50 % for two rounds of doublet removal compared to one round, and the performance of the other three doublet algorithms improved the ROC by about 0.04. In barcoded scRNA-seq datasets, we found that using cxds for two rounds of doublet removal yielded the best results. Subsequently, in simulated datasets, we proved that the multi-round removal strategy was more effective in removing doublets than a single removal, with cxds showing the best results when applied twice, and the ROC of the four methods during the two rounds of removal improved by at least 0.05 compared to single removal. Finally, compared to running the algorithm once, we found that the MRDR strategy was more beneficial for differential gene expression analysis and cell trajectory inference when using default analysis parameters. Overall, we proved that the MRDR strategy was more effective in removing doublets and advantageous for downstream analyses, and the strategy could be incorporated into the standard analysis pipeline for scRNA-seq experiments and recommend using cxds to remove doublets through two rounds of algorithm iteration.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/39911841/
+    display: Computational and structural biotechnology journal, 2025.
+  highlight: 0
+  year: 2025
+
 - title: "Machine learning-based extrachromosomal DNA identification in large-scale cohorts reveals its clinical implications in cancer"
   number: 40
   image:  ecdna.jpg
