@@ -14,24 +14,25 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
-        The Zhao Qi Research Group is a multidisciplinary bioinformatics team based at [Sun Yat-sen university Cancer Center](https://www.sysucc.org.cn/), dedicated to advancing research in gastrointestinal (GI) cancers. Our work integrates computational biology, machine learning, and multi-omics analysis to uncover molecular mechanisms of cancer, identify clinically actionable biomarkers, and support precision oncology.
+        The Zhao Qi Research Group is a multidisciplinary bioinformatics team based at [Sun Yat-sen university Cancer Center]\\(https://www.sysucc.org.cn/), dedicated to advancing research in gastrointestinal (GI) cancers.<br>
+     Our work integrates computational biology, machine learning, and multi-omics analysis to uncover molecular mechanisms of cancer, identify clinically actionable biomarkers, and support precision oncology.
 
   - block: markdown
     content:
       title:
       subtitle:
       text: |
-        Our research spans several interconnected areas:
-        **Cancer Immunotherapy Biomarkers**  
-        Identifying predictive biomarkers to improve immunotherapy response and patient stratification.
-        **Cancer Genomics Software & Databases** 
-        Developing robust algorithms, software tools, and public databases for large-scale cancer genomics analysis.
-        **Targeted Therapy Strategies for GI Cancers** 
-        Exploring novel molecular targets and therapeutic strategies through integrative data analysis.
-        **Machine Learning for Cancer Diagnosis & Prognosis**
-        Building predictive models to support early diagnosis, treatment decision-making, and outcome prediction.
-        **Gut Microbiota & Tumor Microenvironment**  
-        Investigating host–microbiome interactions and their roles in cancer immunotherapy.
+        Our research spans several interconnected areas:<br>
+        **Cancer Immunotherapy Biomarkers**  <br>
+        Identifying predictive biomarkers to improve immunotherapy response and patient stratification.<br>
+        **Cancer Genomics Software & Databases** <br>
+        Developing robust algorithms, software tools, and public databases for large-scale cancer genomics analysis.<br>
+        **Targeted Therapy Strategies for GI Cancers** <br>
+        Exploring novel molecular targets and therapeutic strategies through integrative data analysis.<br>
+        **Machine Learning for Cancer Diagnosis & Prognosis**<br>
+        Building predictive models to support early diagnosis, treatment decision-making, and outcome prediction.<br>
+        **Gut Microbiota & Tumor Microenvironment**  <br>
+        Investigating host–microbiome interactions and their roles in cancer immunotherapy.<br>
     design:
       columns: '1' 
       background:
