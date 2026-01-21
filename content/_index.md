@@ -26,13 +26,20 @@ sections:
 
         Our research spans several interconnected areas:
     
-        | Area | Focus |
-        |---|---|
-        | **Cancer Immunotherapy Biomarkers** | Identify predictive biomarkers to improve immunotherapy response and patient stratification. |
-        | **Cancer Genomics Software & Databases** | Develop robust algorithms, tools, and public databases for large-scale cancer genomics. |
-        | **Targeted Therapy Strategies for GI Cancers** | Discover novel molecular targets and therapeutic strategies via integrative data analysis. |
-        | **Machine Learning for Cancer Diagnosis & Prognosis** | Build predictive models for early diagnosis, treatment decisions, and outcome prediction. |
-        | **Gut Microbiota & Tumor Microenvironment** | Decipher host–microbiome interactions and their impact on cancer immunotherapy. |
+        ### Cancer Immunotherapy Biomarkers  
+        Mining multi-omics data to spot biomarkers that flag immunotherapy responders, then packaging those signals into clinical assays for patient selection and combo dosing.
+        
+        ### Cancer Genomics Software & Databases  
+        Shipping open-source algorithms, containerized workflows and curated databases that let the community reproduce and extend large-scale cancer genomics studies.
+        
+        ### Targeted Therapy Strategies for GI Cancers  
+        Scanning exome, transcriptome and drug-screen datasets to surface druggable lesions in GI tumors, mapping trials to the right inhibitors and tracing resistance with real-time liquid biopsies.
+        
+        ### Machine Learning for Cancer Diagnosis & Prognosis  
+        Training lightweight models on pathology images, radiology scans and routine labs to flag early-stage tumors, forecast survival and explain calls in clinician-friendly heat-maps.
+        
+        ### Gut Microbiota & Tumor Microenvironment  
+        Tracking gut-bug shifts during ICI treatment, testing causality in germ-free models and crafting next-gen probiotics that sharpen anti-tumor immunity.
     design:
       columns: '1' 
       background:
