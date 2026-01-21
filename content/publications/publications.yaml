@@ -1,3 +1,15 @@
+- title: "PRDM1+ Malignant Cells Mediate an Immunosuppressive Landscape and Resistance to Neoadjuvant Chemoradiotherapy and Immunotherapy in Esophageal Squamous Cell Carcinoma."
+  number: 50
+  image:  prdm.jpg
+  authors: Shen D, Li R, She Y, Liu X, Huang Y, Ji Y, Chen K, Song Z, Chen R, Li X, <strong>Zhao Q*</strong>, Chen Q, Chen M
+  description:  The mechanisms underlying resistance to neoadjuvant immunotherapy and chemoradiotherapy (nICRT) in locally advanced esophageal squamous cell carcinoma (ESCC) remain poorly understood. Through a single-arm phase II trial (n = 22) with 44.4-month median follow-up, we observed a significant survival disparity: patients achieving major pathologic response (MPR) exhibited superior 3-year event-free survival (EFS) and overall survival (OS), with no recurrence in MPR patients versus 71.4% recurrence in non-major pathological response (NMPR) patients (HR = 17.69, 95% CI 2.25-139.20, p = 0.0063). Integrating single-cell RNA/TCR sequencing and functional validation, we identified a PRDM1+ malignant cell subcluster enriched in NMPR patients and associated with treatment resistance. These cells exhibit strong lipid peroxidation characteristics, a state linked to the transcriptional activation of CTSB and MFSD12 mediated by PRDM1. This state renders the PRDM1+ malignant cell cluster more susceptible to ferroptosis induction. PRDM1+ cells further recruited immunosuppressive regulatory T cells (Tregs) through IL1A-IL1R2 interactions and activated lipid-metabolizing TREM2+ macrophages via CD47-SIRPA signaling, fostering an immune-evasive microenvironment. Conversely, MPR patients displayed expanded cytotoxic T-effector clones with enhanced tumor-killing capacity. Our findings identify PRDM1 as a key factor associated with nICRT resistance and suggest that targeting ferroptosis pathways or disrupting PRDM1+ cell-mediated immune suppression may represent a viable strategy in ESCC. Clinical trial registration number: NCT03940001.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/41556358/
+    display: Advanced science (Weinheim, Baden-Wurttemberg, Germany), 2026.
+  highlight: 1
+  year: 2026
+
+
 - title: "Paneth-like transition drives resistance to dual targeting of KRAS and EGFR in colorectal cancer."
   number: 49
   image:  
