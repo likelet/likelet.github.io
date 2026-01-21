@@ -14,14 +14,16 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
-        The Zhao Qi Research Group is a multidisciplinary bioinformatics team based at [Sun Yat-sen university Cancer Center](https://www.sysucc.org.cn/), dedicated to advancing research in gastrointestinal (GI) cancers.<br>
-     Our work integrates computational biology, machine learning, and multi-omics analysis to uncover molecular mechanisms of cancer, identify clinically actionable biomarkers, and support precision oncology.
+        
+        The Zhao Qi Research Group is a multidisciplinary bioinformatics team based at Sun Yat-sen university Cancer Center], dedicated to advancing research in gastrointestinal (GI) cancers.<br>
+        Our work integrates computational biology, machine learning, and multi-omics analysis to uncover molecular mechanisms of cancer, identify clinically actionable biomarkers, and support precision oncology.
 
   - block: markdown
     content:
       title:
       subtitle:
       text: |
+        <br>
         Our research spans several interconnected areas:<br>
         **Cancer Immunotherapy Biomarkers**  <br>
         Identifying predictive biomarkers to improve immunotherapy response and patient stratification.<br>
