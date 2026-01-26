@@ -19,7 +19,7 @@ organizations:
     url: 'https://sysucc.org.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Cancer genomics, bioinformatics and cancer immunotherapy 
 
 interests:
   - Artificial Intelligence
@@ -70,6 +70,12 @@ user_groups:
 - Supervisors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Professor Qi Zhao is a Principal Investigator and doctoral supervisor at Sun Yat-sen University Cancer Center (SYSUCC). He directs the Tumor Micro-ecology Research Platform and specializes in gastrointestinal-cancer bioinformatics, with a focus on:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+- Developing multi-omics algorithms and open-source software for large-scale tumor data  
+- Identifying genomic alterations and molecular subtypes in digestive-system cancers  
+- Mining gut-microbiome signatures that modulate therapy resistance  
+
+Dr. Zhao earned a B.S. in bioengineering (2005-2009, Shaanxi University of Science & Technology) and a Ph.D. in bioinformatics (2011-2016, SYSU). After a post-doctoral fellowship at SYSUCC (2016-2019), he was promoted to Associate Professor in 2019 and to full Professor in 2025 .
+
+He has published >40 SCI papers, including *Cancer Cell*, *JAMA Oncology*, *Nature Communications*, *Cell Reports Medicine* and *Nucleic Acids Research* . He is the principal inventor on six granted patents, has registered three software copyrights, and has led or participated in several National Natural Science Foundation of China projects and the National Key R&D Program . His work has been recognized with the First Prize of the Chinese Medical Science & Technology Award, and he was selected for the Guangdong "Special Support Program" for top young talents.
