@@ -7,13 +7,16 @@
     {{ if $pub.image }}
       {{ $imgPath := printf "images/%s" $pub.image }}
       {{ $img := $ctx.Resources.GetMatch $imgPath }}
-      
+      {{ if not $img }}
+        {{ $img = $ctx.Resources.GetMatch $pub.image }}
+      {{ end }}
+
       <div class="publication-img-container">
         {{ if $img }}
-          <img 
-            src="{{ $img.RelPermalink }}" 
-            class="publication-img" 
-            alt="{{ $pub.title }}" 
+          <img
+            src="{{ $img.RelPermalink }}"
+            class="publication-img"
+            alt="{{ $pub.title }}"
             title="{{ $pub.title }}"
           >
         {{ else }}

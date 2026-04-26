@@ -10,11 +10,15 @@ sections:
       title: |
         ZHAO Qi Research Group
       image:
-        filename: welcome.jpg
+        filename: cover.mp4
       text: |
         <br>
         
         A multidisciplinary bioinformatics team at Sun Yat-sen University Cancer Center, advancing gastrointestinal cancer research through computational biology, machine learning, and multi-omics analysis.
+        
+        <br>
+        
+        **🎉 Latest Highlight:** Our gastric cancer immunochemotherapy resistance study is featured as the **cover article** in *Cancer Cell* (2026), unveiling five tumor microenvironment ecotypes and a novel multi-omics stratification system for precision treatment.
 
   - block: markdown
     content:

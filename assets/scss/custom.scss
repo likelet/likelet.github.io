@@ -106,6 +106,7 @@ $text-medium: #4b5563;
     font-size: 1.1rem;
   }
 }
+
 /* 加亮显示Qi Zhao */
 strong {
   color: $primary-color;
@@ -178,4 +179,108 @@ strong {
   .card-body {
     padding: 1.5rem;
   }
+}
+
+/* 出版物双栏布局 */
+.publications-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.publications-sidebar {
+  position: sticky;
+  top: 80px;
+  flex: 0 0 120px;
+  min-width: 100px;
+}
+
+.year-nav {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0.75rem 0.5rem;
+}
+
+.year-nav-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: $text-medium;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.year-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.year-nav-link {
+  display: block;
+  text-align: center;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  color: $text-medium;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $primary-light;
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+.publications-main {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .publications-layout {
+    flex-direction: column;
+  }
+
+  .publications-sidebar {
+    position: static;
+    flex: none;
+    width: 100%;
+  }
+
+  .year-nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .year-nav-link {
+    padding: 3px 10px;
+    font-size: 0.8rem;
+    border: 1px solid #e5e7eb;
+  }
+}
+
+/* 页面通用样式 */
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+.cta-group {
+  justify-content: center;
+}
+
+.markdown-widget {
+  font-size: 1.35rem;
+}
+
+.home-section p {
+  font-size: 1.35rem;
 }

@@ -17,7 +17,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2023-03-01T00:00:00Z'
 
-authors: [Jiaqi Liang†, Chaoye Wang†, Di Zhang†, Yubin Xie, Yanru Zeng, Tianqin Li, Zhixiang Zuo, Jian Ren, Qi Zhao*]
+authors: []
 tags: [DB]
 
 # Is this a featured talk? (true/false)

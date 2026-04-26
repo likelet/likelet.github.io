@@ -18,13 +18,11 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Cancer bioinformatics research group at Sun Yat-sen University Cancer Center, advancing gastrointestinal cancer research through computational biology and multi-omics analysis.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
   verification:
     google: ''
     baidu: ''
@@ -72,12 +70,12 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/likelet/likelet.github.io'
     content_dir: content
     branch: main
   avatar:
     gravatar: false
-    shape: circle
+    shape: rounded
   comment:
     provider: ''
     disqus:
@@ -92,11 +90,6 @@ features:
       category_id: ''
   search:
     provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
   map:
     provider: 'mapnik'
     api_key: ''

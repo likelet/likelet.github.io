@@ -1,8 +1,23 @@
+- title: "Dissecting genetic and immune drivers of heterogeneous responses to neoadjuvant immunochemotherapy in gastric cancer."
+  number: 51
+  image: cc2026.jpg
+  authors: <strong>Qi Zhao<sup>†</sup></strong>, Runjie Huang<sup>†</sup>, Chaoye Wang<sup>†</sup>, Jiajia Hu<sup>†</sup>, Runcong Nie<sup>†</sup>, Rui Jian, Yanan Wang, Deshen Wang, Chuman Liang, Yuxiong Chen, Yuxin Chen, Chuanli Wu, Jianhua Zhang, Junying Chen, Na An, Ying Jin, Wenlong Guan, Zhiwei Wang, Yuanfeng Li, Xiaowei Sun, Yongming Chen, Wei Wang, Haibo Qiu, Zhiwei Zhou, Feng Wang, Rui-Hua Xu*, Shuqiang Yuan*
+  description: >
+    🎉 **Featured as Cancer Cell Cover Article** 🎉
+
+    Based on the NEOSUMMIT-01 clinical trial, this study performed multi-omics sequencing and functional validation on 110 gastric cancer patients before and after neoadjuvant immunochemotherapy (nICT) or chemotherapy (nCT). Five tumor microenvironment ecotypes (EC1-5) were identified, with EC1-3 responding to nICT and EC4-5 showing resistance. EC5 resistance was mediated by interactions between APOA1+ tumor cells and TREM2+ macrophages. Biomarkers including SBS19 mutational signature, HLA-B*15:02 genotype, FDXR expression, and FGFR pathway activity were associated with therapeutic response. A multi-omics stratification model was established to guide clinical decision-making for nICT in gastric cancer.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/41720086/
+    display: Cancer Cell, 2026 (Cover Article).
+  highlight: 1
+  year: 2026
+
 - title: "PRDM1+ Malignant Cells Mediate an Immunosuppressive Landscape and Resistance to Neoadjuvant Chemoradiotherapy and Immunotherapy in Esophageal Squamous Cell Carcinoma."
   number: 50
   image:  prdm.jpg
   authors: Shen D, Li R, She Y, Liu X, Huang Y, Ji Y, Chen K, Song Z, Chen R, Li X, <strong>Zhao Q*</strong>, Chen Q, Chen M
-  description:  The mechanisms underlying resistance to neoadjuvant immunotherapy and chemoradiotherapy (nICRT) in locally advanced esophageal squamous cell carcinoma (ESCC) remain poorly understood. Through a single-arm phase II trial (n = 22) with 44.4-month median follow-up, we observed a significant survival disparity: patients achieving major pathologic response (MPR) exhibited superior 3-year event-free survival (EFS) and overall survival (OS), with no recurrence in MPR patients versus 71.4% recurrence in non-major pathological response (NMPR) patients (HR = 17.69, 95% CI 2.25-139.20, p = 0.0063). Integrating single-cell RNA/TCR sequencing and functional validation, we identified a PRDM1+ malignant cell subcluster enriched in NMPR patients and associated with treatment resistance. These cells exhibit strong lipid peroxidation characteristics, a state linked to the transcriptional activation of CTSB and MFSD12 mediated by PRDM1. This state renders the PRDM1+ malignant cell cluster more susceptible to ferroptosis induction. PRDM1+ cells further recruited immunosuppressive regulatory T cells (Tregs) through IL1A-IL1R2 interactions and activated lipid-metabolizing TREM2+ macrophages via CD47-SIRPA signaling, fostering an immune-evasive microenvironment. Conversely, MPR patients displayed expanded cytotoxic T-effector clones with enhanced tumor-killing capacity. Our findings identify PRDM1 as a key factor associated with nICRT resistance and suggest that targeting ferroptosis pathways or disrupting PRDM1+ cell-mediated immune suppression may represent a viable strategy in ESCC. Clinical trial registration number: NCT03940001.
+  description: >
+    The mechanisms underlying resistance to neoadjuvant immunotherapy and chemoradiotherapy (nICRT) in locally advanced esophageal squamous cell carcinoma (ESCC) remain poorly understood. Through a single-arm phase II trial (n = 22) with 44.4-month median follow-up, we observed a significant survival disparity: patients achieving major pathologic response (MPR) exhibited superior 3-year event-free survival (EFS) and overall survival (OS), with no recurrence in MPR patients versus 71.4% recurrence in non-major pathological response (NMPR) patients (HR = 17.69, 95% CI 2.25-139.20, p = 0.0063). Integrating single-cell RNA/TCR sequencing and functional validation, we identified a PRDM1+ malignant cell subcluster enriched in NMPR patients and associated with treatment resistance. These cells exhibit strong lipid peroxidation characteristics, a state linked to the transcriptional activation of CTSB and MFSD12 mediated by PRDM1. This state renders the PRDM1+ malignant cell cluster more susceptible to ferroptosis induction. PRDM1+ cells further recruited immunosuppressive regulatory T cells (Tregs) through IL1A-IL1R2 interactions and activated lipid-metabolizing TREM2+ macrophages via CD47-SIRPA signaling, fostering an immune-evasive microenvironment. Conversely, MPR patients displayed expanded cytotoxic T-effector clones with enhanced tumor-killing capacity. Our findings identify PRDM1 as a key factor associated with nICRT resistance and suggest that targeting ferroptosis pathways or disrupting PRDM1+ cell-mediated immune suppression may represent a viable strategy in ESCC. Clinical trial registration number: NCT03940001.
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/41556358/
     display: Advanced science (Weinheim, Baden-Wurttemberg, Germany), 2026.
@@ -155,7 +170,7 @@
 
 - title: "Dynamic single-cell mapping unveils Epstein‒Barr virus-imprinted T-cell exhaustion and on-treatment response"
   number: 36
-  authors: Miao-Zhen Qiug<sup>†</sup>, Chaoye Wangg<sup>†</sup>, Zhiying Wug<sup>†</sup>,  **Qi Zhao<sup>†</sup>**, Zhibin Zhaog<sup>†</sup>, Chun-Yu Huang, Wenwei Wu, Li-Qiong Yang, Zhi-Wei Zhou, Yu Zheng, Hong-Ming Pan, Zexian Liu, Zhao-Lei Zeng, Hui-Yan Luo, Feng Wang, Feng-Hua Wang, Si-Yu Yang, Meng-Xing Huang, Zhexiong Lian, Haiyan Zhang & Rui-Hua Xu。
+  authors: Miao-Zhen Qiug<sup>†</sup>, Chaoye Wangg<sup>†</sup>, Zhiying Wug<sup>†</sup>,  <strong>Qi Zhao<sup>†</sup></strong>, Zhibin Zhaog<sup>†</sup>, Chun-Yu Huang, Wenwei Wu, Li-Qiong Yang, Zhi-Wei Zhou, Yu Zheng, Hong-Ming Pan, Zexian Liu, Zhao-Lei Zeng, Hui-Yan Luo, Feng Wang, Feng-Hua Wang, Si-Yu Yang, Meng-Xing Huang, Zhexiong Lian, Haiyan Zhang & Rui-Hua Xu.
   link:
     url:  https://www.nature.com/articles/s41392-023-01622-1
     display: Signal Transduction and Targeted Therapy. 2023.
@@ -247,7 +262,7 @@
   
 - title: "[Review]Raman Spectroscopy: A Novel Technology for Gastric Cancer Diagnosis"
   number: 27
-  authors: Kunxiang Liu, **Qi Zhao**, Bei Li\*, and Xia Zhao\* 
+  authors: Kunxiang Liu, <strong>Qi Zhao</strong>, Bei Li\*, and Xia Zhao\* 
   link:
     url: https://doi.org/10.3389/fbioe.2022.856591
     display: Front. Bioeng. Biotechnol (2022). 
@@ -257,7 +272,7 @@
 
 - title: "Driver mutations in ADGRL3 are involved in the evolution of ependymoma"
   number: 26
-  authors: Jing Wang<sup>†</sup>\*, Shao-yan Xi<sup>†</sup>, **Qi Zhao<sup>†</sup>**, Yun-fei Xia, Qun-ying Yang, Hai-ping Cai, Fang Wang, Yi-ying Zhao, Huan-jing Hu, Zhi-hui Yu, Fu-rong Chen, Peng-Fei Xu, Ri-zhen Xu, Jian Wang, Ji Zhang, Chao Ke, Xiang-heng Zhang, Fu-hua Lin, Cheng-cheng Guo, Yan-chun Lv, Cong Li, Hai-tao Xie, Qian Cui, Hong-mei Wu, Yan-hui Liu, Zhi Li, Hong-kai Su, Jing Zeng, Fu Han, Zhao-jie Li, Ke Sai\* & Zhong-ping Chen\* 
+  authors: Jing Wang<sup>†</sup>\*, Shao-yan Xi<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, Yun-fei Xia, Qun-ying Yang, Hai-ping Cai, Fang Wang, Yi-ying Zhao, Huan-jing Hu, Zhi-hui Yu, Fu-rong Chen, Peng-Fei Xu, Ri-zhen Xu, Jian Wang, Ji Zhang, Chao Ke, Xiang-heng Zhang, Fu-hua Lin, Cheng-cheng Guo, Yan-chun Lv, Cong Li, Hai-tao Xie, Qian Cui, Hong-mei Wu, Yan-hui Liu, Zhi Li, Hong-kai Su, Jing Zeng, Fu Han, Zhao-jie Li, Ke Sai\* & Zhong-ping Chen\* 
   link:
     url: https://doi.org/10.1038/s41374-021-00721-3
     display: Lab Invest (2022). 
@@ -267,7 +282,7 @@
 
 - title: "POLE/POLD1 mutation in non-exonuclease domain matters for predicting efficacy of immune-checkpoint-inhibitor therapy"
   number: 25
-  authors: Yan-Xing Chen, Zi-Xian Wang, Shu-Qiang Yuan, Teng-Jia Jiang, You-Sheng Huang, Rui-Hua Xu, Feng Wang\*, **Qi Zhao\***
+  authors: Yan-Xing Chen, Zi-Xian Wang, Shu-Qiang Yuan, Teng-Jia Jiang, You-Sheng Huang, Rui-Hua Xu, Feng Wang\*, <strong>Qi Zhao*</strong>
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/34586735/
     display: Clin Transl Med. 2021 Sep;11(9):e524.
@@ -280,7 +295,7 @@
   image: meskit.jpg
   description: We present MesKit, an R/Bioconductor package that can assist in characterizing genetic ITH and tracing the evolutionary history of tumors based on somatic alterations detected by MRS. 
   number: 24
-  authors: Mengni Liu, Jianyu Chen, Xin Wang, Chengwei Wang, Xiaolong Zhang, Yubin Xie, Zhixiang Zuo, Jian Ren, **Qi Zhao\***
+  authors: Mengni Liu, Jianyu Chen, Xin Wang, Chengwei Wang, Xiaolong Zhang, Yubin Xie, Zhixiang Zuo, Jian Ren, <strong>Qi Zhao*</strong>
   link:
     url: https://academic.oup.com/gigascience/article-abstract/10/5/giab036/6279596
     display: GigaScience, 10(5), 2021, giab036
@@ -292,7 +307,7 @@
   image: mnxas1.jpg
   description: In this work, through transcriptomic profiling analysis of 21 paired tumor and normal samples, we identified a novel colorectal cancer–related lncRNA, MNX1-AS1. 
   number: 23
-  authors: Qi-Nian Wu, Xiao-Jing Luo, Jia Liu, Yun-Xin Lu, Yun Wang, Jingjing Qi, Ze-Xian Liu, Qi-Tao Huang, Ze-Kun Liu, Jia-Bin Lu, Ying Jin, Heng-Ying Pu, Pei-Shan Hu, Jia-Bo Zheng, Zhao-Lei Zeng, Huai-Qiang Ju, Dan Xie, **Qi Zhao\***, Ruihua Xu\*
+  authors: Qi-Nian Wu, Xiao-Jing Luo, Jia Liu, Yun-Xin Lu, Yun Wang, Jingjing Qi, Ze-Xian Liu, Qi-Tao Huang, Ze-Kun Liu, Jia-Bin Lu, Ying Jin, Heng-Ying Pu, Pei-Shan Hu, Jia-Bo Zheng, Zhao-Lei Zeng, Huai-Qiang Ju, Dan Xie, <strong>Qi Zhao*</strong>, Ruihua Xu\*
   link:
     url: https://cancerres.aacrjournals.org/content/81/10/2636.short
     display: Cancer Research, 2021, 81(10):2636-2650
@@ -304,7 +319,7 @@
   image: luoxiaoj.jpg
   description: In this work, we reviewed current Genetic and Epigenetic Biomarkers of Prognostic and Predictive Significance in Stage II/III Colorectal Cancer"
   number: 22
-  authors: Luo, Xiao-Jing, **Qi Zhao<sup>†</sup>**, Jia Liu, Jia-Bo Zheng, Miao-Zhen Qiu, Huai-Qiang Ju, and Rui-Hua Xu\*.	
+  authors: Luo, Xiao-Jing, <strong>Qi Zhao<sup>†</sup></strong>, Jia Liu, Jia-Bo Zheng, Miao-Zhen Qiu, Huai-Qiang Ju, and Rui-Hua Xu\*.	
   link:
     url: https://doi.org/10.1016/j.ymthe.2020.12.017	
     display: Molecular Therapy, 2021 Feb 3;29(2):587-596.	
@@ -317,7 +332,7 @@
   image: csbj2021.jpg
   description: In this study, we employed a 3D deep learning algorithm to generate three fully automated segmentation models based on conventional MRI images. Then, we exploited transfer learning methodology for feature representation based on trained segmentation models to enhance classification accuracy. 
   number: 21
-  authors: Hongyu Li<sup>†</sup>, **Qi Zhao<sup>†</sup>**, Yihua Zhang<sup>†</sup>, Ke Sai, Lunshan Xu, Yonggao Mou, Yubin Xie, Jian Ren\*, Xiaobing Jiang\*.	
+  authors: Hongyu Li<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, Yihua Zhang<sup>†</sup>, Ke Sai, Lunshan Xu, Yonggao Mou, Yubin Xie, Jian Ren\*, Xiaobing Jiang\*.	
   link:
     url: https://doi.org/10.1016/j.csbj.2021.05.023	
     display: Computational and Structural Biotechnology Journal, 2021 May 14;19:3077-3086.
@@ -334,7 +349,7 @@
   
 - title: "Systematic analysis of the aberrances and functional implications of ferroptosis in cancer."	
   number: 19
-  authors: Zekun Liu<sup>†</sup>, **Qi Zhao<sup>†</sup>**, Zhi-Xiang Zuo<sup>†</sup>, Shu-Qiang Yuan<sup>†</sup>, Kai Yu, Qingfeng Zhang, Xiaolong Zhang, Hui Sheng, Huai-Qiang Ju, Han Cheng, Feng Wang, Rui-Hua Xu, Ze-Xian Liu	
+  authors: Zekun Liu<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, Zhi-Xiang Zuo<sup>†</sup>, Shu-Qiang Yuan<sup>†</sup>, Kai Yu, Qingfeng Zhang, Xiaolong Zhang, Hui Sheng, Huai-Qiang Ju, Han Cheng, Feng Wang, Rui-Hua Xu, Ze-Xian Liu	
   link:
     url: https://doi.org/10.1016/j.isci.2020.101302	
     display: iScience, 2020 Jul 24;23(7):101302.	
@@ -342,7 +357,7 @@
   
 - title: "p.P476S mutation of RBPJL inhibits the efficacy of anti-PD-1 therapy in esophageal squamous cell carcinoma by blunting T-cell responses."	
   number: 18
-  authors: Lei Miao<sup>†</sup>, Xiao-Li Wei<sup>†</sup>, **Qi Zhao<sup>†</sup>**, JingJing Qi, Chao Ren, Qi-Nian Wu, Da-Liang Wei, Jia Liu, Feng-Hua Wang*, Rui-Hua Xu*	
+  authors: Lei Miao<sup>†</sup>, Xiao-Li Wei<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, JingJing Qi, Chao Ren, Qi-Nian Wu, Da-Liang Wei, Jia Liu, Feng-Hua Wang*, Rui-Hua Xu*	
   link:
     url: https://doi.org/10.1002/cti2.1172	
     display: Clinical & Translational Immunology, 2020 Sep 16;9(9):e1172	
@@ -361,7 +376,7 @@
   
 - title: "autoRPA: A web server for constructing cancer staging models by recursive partitioning analysis"	
   number: 16
-  authors: Xie, Yubin, Xiaotong Luo, Huiqin Li, Qingxian Xu, Zhihao He, **Qi Zhao\***, Zhixiang Zuo\*, and Jian Ren\*	
+  authors: Xie, Yubin, Xiaotong Luo, Huiqin Li, Qingxian Xu, Zhihao He, <strong>Qi Zhao*</strong>, Zhixiang Zuo\*, and Jian Ren\*	
   link:
     url: https://doi.org/10.1016/j.csbj.2020.10.038	
     display: Computational and Structural Biotechnology Journal, 2020 Nov 10;18:3361-3367. 	
@@ -369,7 +384,7 @@
   
 - title: "Germline mutational profile of Chinese patients under 70 years old with colorectal cancer."	
   number: 15
-  authors: Teng-Jia Jiang<sup>†</sup>, Fang Wang<sup>†</sup>, Ying-Nan Wang<sup>†</sup>, Jia-Jia Hu, Pei-Rong Ding, Jun-Zhong Lin, Zhi-Zhong Pan, Gong Chen, Jian-Yong Shao, Rui-hua Xu, **Qi Zhao\***, Feng Wang\*.	
+  authors: Teng-Jia Jiang<sup>†</sup>, Fang Wang<sup>†</sup>, Ying-Nan Wang<sup>†</sup>, Jia-Jia Hu, Pei-Rong Ding, Jun-Zhong Lin, Zhi-Zhong Pan, Gong Chen, Jian-Yong Shao, Rui-hua Xu, <strong>Qi Zhao*</strong>, Feng Wang\*.	
   link:
     url: https://doi.org/10.1002/cac2.12093	
     display: Cancer Communications, 2020 Nov;40(11):620-632	
@@ -385,7 +400,7 @@
   
 - title: "Targeting the STING pathway in tumor-associated macrophages regulates innate immune sensing of gastric cancer cells"	
   number: 13
-  authors: Miao Lei<sup>†</sup>, Jingjing Qi<sup>†</sup>, **Qi Zhao<sup>†</sup>**, Qi-Nian Wu, Da-Liang Wei, Xiao-Li Wei, Jia Liu, Jun Chen, Zhaolei Zeng, Huaiqiang Ju, Huiyan Luo*, Rui-hua Xu*	
+  authors: Miao Lei<sup>†</sup>, Jingjing Qi<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, Qi-Nian Wu, Da-Liang Wei, Xiao-Li Wei, Jia Liu, Jun Chen, Zhaolei Zeng, Huaiqiang Ju, Huiyan Luo*, Rui-hua Xu*	
   link:
     url: https://doi.org/10.7150/thno.37745	
     display: Theranostics, 2020 Jan 1;10(2):498-515	
@@ -401,7 +416,7 @@
   
 - title: "Circulating tumor DNA methylation profiles enable early diagnosis, prognosis prediction, and screening for colorectal cancer"	
   number: 11
-  authors: Huiyan Luo<sup>†</sup>, **Qi Zhao<sup>†</sup>**, Wei Wei<sup>†</sup>, Lianghong Zheng<sup>†</sup>, Shaohua Yi<sup>†</sup>, Gen Li, Wenqiu Wang, Hui Sheng, Hengying Pu, Haiyu Mo, Zhixiang Zuo, Zexian Liu, Chaofeng Li, Chuanbo Xie, Zhaolei Zeng, Weimin Li, Xiaoke Hao, Yuying Liu, Sumei Cao, Wanli Liu, Sarah Gibson, Kang Zhang, Guoliang Xu, Rui-hua Xu*	
+  authors: Huiyan Luo<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, Wei Wei<sup>†</sup>, Lianghong Zheng<sup>†</sup>, Shaohua Yi<sup>†</sup>, Gen Li, Wenqiu Wang, Hui Sheng, Hengying Pu, Haiyu Mo, Zhixiang Zuo, Zexian Liu, Chaofeng Li, Chuanbo Xie, Zhaolei Zeng, Weimin Li, Xiaoke Hao, Yuying Liu, Sumei Cao, Wanli Liu, Sarah Gibson, Kang Zhang, Guoliang Xu, Rui-hua Xu*	
   link:
     url: https://doi.org/10.1126/scitranslmed.aax7533	
     display: Science Translational Medicine, 2020 Jan 1;12(524):eaax7533	
@@ -409,7 +424,7 @@
   
 - title: "Tumor mutational and indel burden: a systematic pan-cancer evaluation as prognostic biomarkers"	
   number: 10
-  authors: Hao-Xiang Wu<sup>†</sup> , Zi-Xian Wang<sup>†</sup> , **Qi Zhao<sup>†</sup>** , Dong-Liang Chen , Ming-Ming He , Lu-Ping Yang , Ying-Nan Wang , Ying Jin , Chao Ren , Hui-Yan Luo , Zhi-Qiang Wang , Feng Wang 	
+  authors: Hao-Xiang Wu<sup>†</sup> , Zi-Xian Wang<sup>†</sup> , <strong>Qi Zhao<sup>†</sup></strong> , Dong-Liang Chen , Ming-Ming He , Lu-Ping Yang , Ying-Nan Wang , Ying Jin , Chao Ren , Hui-Yan Luo , Zhi-Qiang Wang , Feng Wang 	
   link:
     url: https://doi.org/10.21037/atm.2019.10.116	
     display: Annals of Translational Medicine, 2019 Nov;7(22):640	
@@ -417,7 +432,7 @@
   
 - title: "Dysregulation, functional implications, and prognostic ability of the circadian clock across cancers"	
   number: 9
-  authors: Zekun Liu<sup>†</sup>, Kai Yu<sup>†</sup>, Jian Zheng<sup>†</sup>, Huan Lin<sup>†</sup>, **Qi Zhao<sup>†</sup>**, Xiaolong Zhang, Weiyi Feng, Liyu Wang, Jianjun Xu, Dawei Xie, Zhi‐Xiang Zuo, Ze‐Xian Liu, Qichang Zheng	
+  authors: Zekun Liu<sup>†</sup>, Kai Yu<sup>†</sup>, Jian Zheng<sup>†</sup>, Huan Lin<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, Xiaolong Zhang, Weiyi Feng, Liyu Wang, Jianjun Xu, Dawei Xie, Zhi‐Xiang Zuo, Ze‐Xian Liu, Qichang Zheng	
   link:
     url: https://doi.org/10.1002/cam4.2035	
     display: Cancer Medicine, 2019 Apr;8(4):1710-1720.	
@@ -457,7 +472,7 @@
   
 - title: "qPhos: a database of protein phosphorylation dynamics in humans"	
   number: 4
-  authors: Kai Yu<sup>†</sup>, Qingfeng Zhang<sup>†</sup>, Zekun Liu<sup>†</sup>, **Qi Zhao<sup>†</sup>**, Xiaolong Zhang, Yan Wang, Zi-Xian Wang, Ying Jin, Xiaoxing Li, Ze-Xian Liu, Rui-Hua Xu	
+  authors: Kai Yu<sup>†</sup>, Qingfeng Zhang<sup>†</sup>, Zekun Liu<sup>†</sup>, <strong>Qi Zhao<sup>†</sup></strong>, Xiaolong Zhang, Yan Wang, Zi-Xian Wang, Ying Jin, Xiaoxing Li, Ze-Xian Liu, Rui-Hua Xu	
   link:
     url: https://doi.org/10.1093/nar/gky1052	
     display: Nucleic Acids Research, 10/2018;47(Databaseissue)	
@@ -465,7 +480,7 @@
   
 - title: "The genomic landscape of small cell carcinoma of the esophagus"	
   number: 3
-  authors: Feng Wang, Dong-Bing Liu, **Qi Zhao<sup>†</sup>**, Gang Chen, Xin-Ming Liu, Ying-Nan Wang, Hong Su, Yan-Ru Qin, Yi-Fu He, Qing-Feng Zou, Yan-Hui Liu, You-En Lin, Ze-Xian Liu, Jin-Xin Bei, Rui-Hua Xu	
+  authors: Feng Wang, Dong-Bing Liu, <strong>Qi Zhao<sup>†</sup></strong>, Gang Chen, Xin-Ming Liu, Ying-Nan Wang, Hong Su, Yan-Ru Qin, Yi-Fu He, Qing-Feng Zou, Yan-Hui Liu, You-En Lin, Ze-Xian Liu, Jin-Xin Bei, Rui-Hua Xu	
   link:
     url: https://doi.org/10.1038/s41422-018-0039-1	
     display: Cell Research, 2018 Jul;28(7):771-774.	

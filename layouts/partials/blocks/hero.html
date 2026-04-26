@@ -1,0 +1,104 @@
+{{/* Custom Hero Block with Video Support */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $bg := $block.design.background }}
+
+{{ if $block.content }}
+<div class="wg-hero {{ if $bg.text_color_light | default false }}dark{{ end }} d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 text-center text-md-left">
+        {{ with $block.content.title }}
+        <h1 class="hero-title">{{ . | markdownify | emojify }}</h1>
+        {{ end }}
+
+        {{ with $block.content.text }}
+        <div class="hero-lead">{{ . | markdownify | emojify }}</div>
+        {{ end }}
+
+        {{ if $block.content.cta }}
+        <p>
+          {{ with $block.content.cta.url }}
+            <a href="{{ . | relLangURL }}" class="btn btn-primary btn-lg">
+          {{ end }}
+          {{- with $block.content.cta.icon -}}<i class="{{ . }} pr-1" aria-hidden="true"></i>{{- end -}}
+          {{- $block.content.cta.label | emojify -}}
+          {{ if $block.content.cta.url }}</a>{{ end }}
+        </p>
+        {{ end }}
+
+        {{ if $block.content.cta_alt }}
+        <p>
+          {{ with $block.content.cta_alt.url }}
+            <a href="{{ . | relLangURL }}" class="hero-cta-alt">
+          {{ end }}
+          {{- with $block.content.cta_alt.icon -}}<i class="{{ . }} pr-1" aria-hidden="true"></i>{{- end -}}
+          {{- $block.content.cta_alt.label | emojify -}}
+          {{ if $block.content.cta_alt.url }}</a>{{ end }}
+        </p>
+        {{ end }}
+      </div>
+
+      <div class="col-12 col-md-6">
+        {{ with $block.content.image.filename }}
+          {{ $video_extensions := slice "mp4" "webm" "ogg" }}
+          {{ $ext := path.Ext . | strings.TrimPrefix "." | lower }}
+          {{ if in $video_extensions $ext }}
+            {{/* Video */}}
+            {{ $video_path := resources.Get (path.Join "media" .) }}
+            {{ if $video_path }}
+            <div class="hero-media">
+              <video autoplay loop muted playsinline class="img-fluid">
+                <source src="{{ $video_path.RelPermalink }}" type="video/{{ $ext }}">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            {{ end }}
+          {{ else }}
+            {{/* Image */}}
+            {{ $image := resources.Get (path.Join "media" .) }}
+            {{ if $image }}
+              {{ $isSVG := eq $image.MediaType.SubType "svg" }}
+              {{ if $isSVG }}
+            <img src="{{ $image.RelPermalink }}" alt="{{ $block.content.title }}" class="img-fluid">
+              {{ else }}
+                {{ $image_small := $image.Resize "600x webp" }}
+            <img src="{{ $image_small.RelPermalink }}" alt="{{ $block.content.title }}" class="img-fluid" loading="lazy">
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.hero-media {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-media video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wg-hero {
+  padding: 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .wg-hero {
+    padding: 2rem 0;
+  }
+  .hero-media {
+    margin-top: 2rem;
+  }
+}
+</style>
+{{ end }}

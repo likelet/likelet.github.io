@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -oP '<h3 class=\\\\\\\\\"mt-4\\\\\\\\\">\\\\K[^<]+' public/publications/index.html)",
+      "Bash(hugo --gc --minify)",
+      "Bash(curl -s http://localhost:1313/publications/)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:api.crossref.org)",
+      "WebFetch(domain:eutils.ncbi.nlm.nih.gov)",
+      "WebSearch",
+      "Bash(curl *)",
+      "Bash(hugo server *)",
+      "Bash(taskkill //F //IM hugo.exe sleep 1 cd D:/code/likelet.github.io)",
+      "Bash(powershell *)"
+    ]
+  }
+}

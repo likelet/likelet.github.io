@@ -1,14 +1,44 @@
 {{ define "main" }}
-<div class="container">
-  <h1 class="publications-title">{{ .Title }}</h1>
-  <div class="publications-content">
-    {{ .Content }}
+{{ $yamlFile := .Page.Resources.GetMatch "publications.yaml" }}
+{{ if not $yamlFile }}
+  <div class="container"><p class="alert alert-danger">Publications data not found.</p></div>
+{{ else }}
+  {{ $publications := $yamlFile.Content | transform.Unmarshal }}
 
-    <h2 class="section-subtitle">Group Highlights</h2>
-    {{ partial "publications_custom.html" (dict "type" "highlight" "context" .) }}
+  {{ $allYears := slice }}
+  {{ range $pub := $publications }}
+    {{ $yearStr := string $pub.year }}
+    {{ if not (in $allYears $yearStr) }}
+      {{ $allYears = $allYears | append $yearStr }}
+    {{ end }}
+  {{ end }}
 
-    <h2 class="section-subtitle">Selected Publications</h2>
-    {{ partial "publications_custom.html" (dict "type" "all" "context" .) }}
+  <div class="container">
+    <h1 class="publications-title">{{ .Title }}</h1>
+    <div class="publications-content">
+      {{ .Content }}
+
+      <div class="publications-layout">
+        <aside class="publications-sidebar">
+          <nav class="year-nav">
+            <h4 class="year-nav-title">Years</h4>
+            <ul class="year-nav-list">
+              {{ range sort $allYears "value" "desc" }}
+                <li><a href="#year-{{ . }}" class="year-nav-link">{{ . }}</a></li>
+              {{ end }}
+            </ul>
+          </nav>
+        </aside>
+
+        <main class="publications-main">
+          <h2 class="section-subtitle">Group Highlights</h2>
+          {{ partial "publications_custom.html" (dict "type" "highlight" "context" . "publications" $publications) }}
+
+          <h2 class="section-subtitle">Selected Publications</h2>
+          {{ partial "publications_custom.html" (dict "type" "all" "context" . "publications" $publications "allYears" $allYears) }}
+        </main>
+      </div>
+    </div>
   </div>
-</div>
+{{ end }}
 {{ end }}
