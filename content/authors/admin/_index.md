@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Zhao Qi
+title: Qi Zhao
+slug: zhao-qi
 
 # Full Name (for SEO)
 first_name: Qi
@@ -11,28 +12,28 @@ weight: 10
 superuser: true
 
 # Role/position
-role: Professor of Sun Yat-sen university Cancer Center
+role: Professor of Sun Yat-sen University Cancer Center
 
 # Organizations/Affiliations
 organizations:
-  - name: Sun Yat-sen university Cancer Center
+  - name: Sun Yat-sen University Cancer Center
     url: 'https://sysucc.org.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: Cancer genomics, bioinformatics and cancer immunotherapy 
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Cancer multi-omics algorithms, software and databases
+  - Machine learning for immunotherapy biomarkers
+  - Genomic-clinical associations in gastrointestinal cancers
 
 education:
   courses:
-    - course: Postdoc with Xu Ruihua, Sun Yat-sen Univerisy
-      institution: Sun Yat-sen Univerisy
+    - course: Postdoc with Xu Ruihua, Sun Yat-sen University
+      institution: Sun Yat-sen University
       year: 2016
-    - course: PhD with Ren Jian, Sun Yat-sen Univerisy
-      institution: Sun Yat-sen Univerisy
+    - course: PhD with Ren Jian, Sun Yat-sen University
+      institution: Sun Yat-sen University
       year: 2011
     - course: BSc Shaanxi University of Science & Technology
       institution: Shaanxi University of Science & Technology
@@ -45,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'zhaoqi@sysucc.org.cn'
+    link: 'mailto:zhaoqi@sysucc.org.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=j7LCthMAAAAJ&hl=zh-CN
@@ -79,3 +80,5 @@ Professor Qi Zhao is a Principal Investigator and doctoral supervisor at Sun Yat
 Dr. Zhao earned a B.S. in bioengineering (2005-2009) and a Ph.D. in bioinformatics (2011-2016). After a post-doctoral fellowship at SYSUCC (2016-2019), he was promoted to Associate Professor in 2019 and to full Professor in 2025.
 
 He has published more than 40 SCI papers, including *Cancer Cell*, *JAMA Oncology*, *Nature Communications*, *Cell Reports Medicine* and *Nucleic Acids Research* . He is the principal inventor on six granted patents, has registered three software copyrights, and has led or participated in several National Natural Science Foundation of China projects and the National Key R&D Program . His work has been recognized with the First Prize of the Chinese Medical Science & Technology Award, and he was selected for the Guangdong "Special Support Program" for top young talents.
+
+[Institutional profile](https://english.sysucc.org.cn/info_26.aspx?itemid=820) · [Latest research updates](/#research-updates)

@@ -5,6 +5,6 @@ image:
   focal_point: 'top'
 ---
 
-The genomic evolution analysis of gastric mixed adenoneuroendocrine carcinoma (MANEC) is now published in **Cell Reports**. [link](https://cell.com/cell-reports/fulltext/S2211-1247(23)00587-9)
+The genomic evolution analysis of gastric mixed adenoneuroendocrine carcinoma (MANEC) is now published in **Cell Reports**. [Read the publication](https://cell.com/cell-reports/fulltext/S2211-1247(23)00587-9)
 
 <!--more-->

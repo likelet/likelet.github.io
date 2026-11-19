@@ -5,6 +5,6 @@ image:
   focal_point: 'top'
 ---
 
-Our team publishes a new review on Raman technology for gastric cancer diagnosis (authored by Kunxiang Liu). [link](https://www.frontiersin.org/articles/10.3389/fbioe.2022.856591/full). Congratulations!
+Our team publishes a new review on Raman technology for gastric cancer diagnosis (authored by Kunxiang Liu). [Read the publication](https://www.frontiersin.org/articles/10.3389/fbioe.2022.856591/full). Congratulations!
 
 <!--more-->

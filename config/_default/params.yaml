@@ -17,7 +17,7 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
+    org_name: 'Qi Zhao Research Group'
     description: 'Cancer bioinformatics research group at Sun Yat-sen University Cancer Center, advancing gastrointestinal cancer research through computational biology and multi-omics analysis.'
     twitter: ''
   analytics:
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Qi Zhao Research Group. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

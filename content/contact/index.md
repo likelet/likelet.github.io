@@ -9,7 +9,7 @@ sections:
     content:
       title: Contact
       text: |-
-        Our team is also part of the bioinformatic platform led by Professor REN Jian, which you can learn more about at https://renlab.org/. We extend our warmest welcome to those who are interested in joining our research team! If you are passionate about our work and would like to explore potential opportunities for collaboration or membership, please feel free to reach out to us. To express your interest, kindly fill in your name, email address, and a brief message in the form below. We will get back to you as soon as possible to discuss further possibilities. We sincerely look forward to hearing from you and hope to establish a productive and inspiring cooperation.
+        Our team is also part of the bioinformatic platform led by Professor REN Jian, which you can learn more about at https://renlab.org/. We extend our warmest welcome to those who are interested in joining our research team! If you are passionate about our work and would like to explore potential opportunities for collaboration or membership, please feel free to reach out to us. For collaboration or opportunities to join the group, email [zhaoqi@sysucc.org.cn](mailto:zhaoqi@sysucc.org.cn) with your name, affiliation, and a short description of your interests. We will get back to you as soon as possible to discuss further possibilities. We sincerely look forward to hearing from you and hope to establish a productive and inspiring cooperation.
       email: zhaoqi@sysucc.org.cn
       address:
         street: 651 Dongfeng East Road
@@ -33,7 +33,7 @@ sections:
     
       # Email form provider
       form:
-        provider: netlify
+        provider: ''
         formspree:
           id:
         netlify:

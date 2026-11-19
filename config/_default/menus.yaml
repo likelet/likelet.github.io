@@ -4,13 +4,16 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: News
-    url: post
+  - name: About Qi Zhao
+    url: author/zhao-qi/
+    weight: 10
+  - name: Research updates
+    url: /#research-updates
     weight: 20
   - name: People
     url: people
     weight: 30
-  - name: Tool&DB
+  - name: Tools & Databases
     url: tool-db
     weight: 40
   - name: Publications

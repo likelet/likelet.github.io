@@ -5,6 +5,6 @@ image:
   focal_point: 'top'
 ---
 
-Led by Prof. Xu, our team reports major results from the “Chankang Project”: genomic analysis of 1015 Chinese colorectal cancer patients reveals a mitochondrial genomic alteration-defined subgroup. [link](https://www.nature.com/articles/s41467-022-30062-8)
+Led by Prof. Xu, our team reports major results from the “Chankang Project”: genomic analysis of 1015 Chinese colorectal cancer patients reveals a mitochondrial genomic alteration-defined subgroup. [Read the publication](https://www.nature.com/articles/s41467-022-30062-8)
 
 <!--more-->

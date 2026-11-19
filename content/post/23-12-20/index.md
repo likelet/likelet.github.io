@@ -5,6 +5,6 @@ image:
   focal_point: 'top'
 ---
 
-“We developed a bioinformatics tool repository for indexing and commenting thousands of tools, which was recently highlighted as a cover story in **Science China Life Sciences**.” [linc](https://link.springer.com/article/10.1007/s11427-023-2509-x)
+“We developed a bioinformatics tool repository for indexing and commenting thousands of tools, which was recently highlighted as a cover story in **Science China Life Sciences**.” [Read the publication](https://link.springer.com/article/10.1007/s11427-023-2509-x)
 
 <!--more-->

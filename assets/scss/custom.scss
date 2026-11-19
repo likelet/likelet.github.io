@@ -284,3 +284,29 @@ strong {
 .home-section p {
   font-size: 1.35rem;
 }
+
+/* Personal profile and compact research overview. */
+.hero-eyebrow { font-size: .9rem !important; font-weight: 600; letter-spacing: .03em; color: #2563eb; }
+.hero-portrait { display: block; width: 100%; max-width: 360px; height: auto; margin: 1rem auto; border-radius: 18px; }
+.wg-hero .hero-title { font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.12; }
+.wg-hero .hero-lead p { font-size: 1.1rem; line-height: 1.7; }
+.research-overview .section-heading { margin-bottom: 2rem; }
+.research-overview h3 { font-size: 1.25rem; margin-top: 1.8rem; }
+.research-overview p { font-size: 1rem; line-height: 1.7; max-width: 72ch; }
+.research-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+.research-card { border: 1px solid #cbd5e1; border-top: 3px solid #2563eb; border-radius: 12px; padding: 1.5rem; }
+.research-card h3 { font-size: 1.15rem; line-height: 1.5; margin: .75rem 0; }
+.research-card p, .research-intro { font-size: 1rem !important; }
+.research-card .research-year { font-weight: 600; }
+.research-selected > h2 { font-size: 2rem; }
+.dark .hero-eyebrow, .dark .research-card a { color: #93c5fd; }
+a:focus-visible, button:focus-visible { outline: 3px solid #2563eb; outline-offset: 4px; }
+@media (max-width: 767px) {
+  .research-grid { grid-template-columns: 1fr; }
+  .home-section { padding: 3rem 0; }
+  .hero-portrait { max-width: 260px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero::before { animation: none; }
+  .publication-item, .publication-highlights .card, .publication-img { transition: none; }
+}

@@ -8,6 +8,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-6 text-center text-md-left">
+        {{ with $block.content.eyebrow }}<p class="hero-eyebrow">{{ . }}</p>{{ end }}
         {{ with $block.content.title }}
         <h1 class="hero-title">{{ . | markdownify | emojify }}</h1>
         {{ end }}
@@ -40,6 +41,14 @@
       </div>
 
       <div class="col-12 col-md-6">
+        {{ if $block.content.portrait }}
+          {{ with site.GetPage "/authors/admin" }}
+            {{ with .Resources.GetMatch "*avatar*" }}
+              {{ $portrait := .Fit "640x800 webp" }}
+              <img src="{{ $portrait.RelPermalink }}" width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" alt="Qi Zhao" class="hero-portrait" fetchpriority="high">
+            {{ end }}
+          {{ end }}
+        {{ end }}
         {{ with $block.content.image.filename }}
           {{ $video_extensions := slice "mp4" "webm" "ogg" }}
           {{ $ext := path.Ext . | strings.TrimPrefix "." | lower }}

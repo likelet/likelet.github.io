@@ -16,6 +16,8 @@
           <img
             src="{{ $img.RelPermalink }}"
             class="publication-img"
+            loading="lazy"
+            decoding="async"
             alt="{{ $pub.title }}"
             title="{{ $pub.title }}"
           >
@@ -35,7 +37,7 @@
       
       <!-- 描述 -->
       <div class="card-text mb-3">
-        {{ $pub.description | safeHTML }}
+        {{ $pub.description | markdownify }}
       </div>
       
       <!-- 作者列表 - 解析加粗标记 -->

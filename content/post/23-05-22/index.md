@@ -5,6 +5,6 @@ image:
   focal_point: 'top'
 ---
 
-Our comprehensive analysis of mutational signatures and tumor microenvironment across pan-cancers is now online in **Frontiers in Immunology**. [link](https://www.frontiersin.org/articles/10.3389/fimmu.2023.1186357/full)
+Our comprehensive analysis of mutational signatures and tumor microenvironment across pan-cancers is now online in **Frontiers in Immunology**. [Read the publication](https://www.frontiersin.org/articles/10.3389/fimmu.2023.1186357/full)
 
 <!--more-->

@@ -1,0 +1,22 @@
+{{ with site.GetPage "/publications" }}
+  {{ with .Resources.GetMatch "publications.yaml" }}
+    {{ $publications := .Content | transform.Unmarshal }}
+    {{ $selected := first 3 (sort (where $publications "highlight" 1) "number" "desc") }}
+    {{ if $selected }}
+    <div class="research-selected">
+      <h2>Selected research</h2>
+      <p class="research-intro">Recent highlights from our work in cancer genomics and treatment response.</p>
+      <div class="research-grid">
+        {{ range $selected }}
+        <article class="research-card">
+          <p class="research-year">{{ .year }}</p>
+          <h3><a href="{{ .link.url }}">{{ .title }}</a></h3>
+          <p>{{ .link.display }}</p>
+        </article>
+        {{ end }}
+      </div>
+      <p class="mt-4"><a href="{{ "publications/" | relLangURL }}">View all publications</a></p>
+    </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

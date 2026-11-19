@@ -1,3 +1,42 @@
+- title: "Ociperlimab and tislelizumab in advanced esophageal squamous cell carcinoma (AdvanTIG-203): a phase II study."
+  number: 54
+  authors: "Feng Wang, Chen-Yuan Lin, Jong-Mu Sun, Chang-Hsien Lu, Xueqiang Zhu, Zhendong Chen, <strong>Qi Zhao</strong>, In-Ho Kim, Yueyin Pan, Jingdong Zhang, Zhaohong Chen, David Tougeron, Sung-Bae Kim, Eric Van Cutsem, Aziz Zaanan, Fernando Rivera, Arunee Dechaphunkul, Yunxia Zuo, Qiting Wan, Juan Zhang, Jiadong Zhou, Rui-Hua Xu"
+  description: "A randomized phase II trial evaluates dual checkpoint blockade and exploratory immune biomarkers in advanced esophageal squamous cell carcinoma."
+  date: 2026-09-18
+  doi: 10.1038/s41467-026-77705-8
+  pmid: "42901884"
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/42901884/
+    display: Nature Communications, 2026-09-18.
+  highlight: 0
+  year: 2026
+
+- title: "Vitamin B5 supports anti-PD1 response in HER2-positive gastric cancer and enhances interaction between naïve B cells and T cells."
+  number: 53
+  authors: "Chaoye Wang, Jing Yang, Ming-Yu Lai, Jia-Chen Lu, Li-Qiong Yang, Zhi-Ying Wu, Hai-Yan Zhang, Fang Wang, Masami Yamamoto, Tetsuya Tsukamoto, Sachiyo Nomura, Feng-Hua Wang, Wen-Long Guan, Ying Jin, Rui-Hua Xu, <strong>Qi Zhao</strong>, Miao-Zhen Qiu"
+  description: "Single-cell profiling links na\u00efve B cells and vitamin B5 metabolism to immune responses in HER2-positive gastric cancer."
+  date: 2026-08-05
+  doi: 10.1038/s41467-026-76239-3
+  pmid: "42686743"
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/42686743/
+    display: Nature Communications, 2026-08-05.
+  highlight: 0
+  year: 2026
+
+- title: "Senescence-circadian interplay stratifies patient prognosis and reveals immune remodeling heterogeneity in colorectal cancer."
+  number: 52
+  authors: "Li-Zhi Luo, Yu Zhan, Ru-Xiang Bao, Yong-Qiang Zheng, Qi-Nian Wu, Shao-Yan Xi, Ze-Xian Liu, Ting Li, <strong>Qi Zhao</strong>"
+  description: "A four-gene score connects senescence and circadian programs with prognosis and immune heterogeneity in colorectal cancer."
+  date: 2026-06-03
+  doi: 10.3389/fimmu.2026.1804974
+  pmid: "42317343"
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/42317343/
+    display: Frontiers in Immunology, 2026-06-03.
+  highlight: 0
+  year: 2026
+
 - title: "Dissecting genetic and immune drivers of heterogeneous responses to neoadjuvant immunochemotherapy in gastric cancer."
   number: 51
   image: cc2026.jpg

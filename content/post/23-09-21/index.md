@@ -5,6 +5,6 @@ image:
   focal_point: 'top'
 ---
 
-“Our study on the single-cell dynamic microenvironment of EBV-positive gastric cancer before and after anti-PD1 treatment” is now published in **Signal Transduction and Targeted Therapy**. [link](https://www.nature.com/articles/s41392-023-01622-1)
+“Our study on the single-cell dynamic microenvironment of EBV-positive gastric cancer before and after anti-PD1 treatment” is now published in **Signal Transduction and Targeted Therapy**. [Read the publication](https://www.nature.com/articles/s41392-023-01622-1)
 
 <!--more-->

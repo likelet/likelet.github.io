@@ -1,33 +1,46 @@
 ---
-# Leave the homepage title empty to use the site title
 title:
 date: 2022-10-24
 type: landing
-
 sections:
   - block: hero
     content:
-      title: |
-        ZHAO Qi Research Group
-      image:
-        filename: cover.mp4
+      title: Qi Zhao & Research Group
+      eyebrow: Cancer bioinformatics · Sun Yat-sen University Cancer Center
+      portrait: true
       text: |
-        <br>
-        
-        A multidisciplinary bioinformatics team at Sun Yat-sen University Cancer Center, advancing gastrointestinal cancer research through computational biology, machine learning, and multi-omics analysis.
-        
-        <br>
-        
-        **🎉 Latest Highlight:** Our gastric cancer immunochemotherapy resistance study is featured as the **cover article** in *Cancer Cell* (2026), unveiling five tumor microenvironment ecotypes and a novel multi-omics stratification system for precision treatment.
+        I am Qi Zhao, a professor and principal investigator at Sun Yat-sen University Cancer Center.
 
-  - block: markdown
+        Our group studies gastrointestinal cancers through computational biology, machine learning, and multi-omics analysis.
+      cta:
+        label: About Qi Zhao
+        url: /author/zhao-qi/
+      cta_alt:
+        label: Explore our publications
+        url: /publications/
+  - block: collection
+    id: research-updates
     content:
-      title:
-      subtitle:
+      title: Latest research updates
       text: |
+        Recent publications involving Qi Zhao at Sun Yat-sen University Cancer Center.
 
-        Our research spans several interconnected areas:
-    
+        [All news](/post/) · [RSS feed](/post/index.xml)
+      count: 3
+      filters:
+        tag: research-updates
+        exclude_featured: false
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '1'
+  - block: markdown
+    id: research
+    content:
+      title: Research directions
+      text: |
         ### Cancer Immunotherapy Biomarkers  
         Mining multi-omics data to spot biomarkers that flag immunotherapy responders, then packaging those signals into clinical assays for patient selection and combo dosing.
         
@@ -43,69 +56,19 @@ sections:
         ### Gut Microbiota & Tumor Microenvironment  
         Tracking gut-bug shifts during ICI treatment, testing causality in germ-free models and crafting next-gen probiotics that sharpen anti-tumor immunity.
     design:
-      columns: '1' 
-      background:
-        color: "white"           # 与 hero block 相同
-        text_color_light: false  # 与 hero block 相同
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
       columns: '1'
-  
+      css_class: research-overview
+  - block: selected-research
+    id: selected-research
+    content:
+      title: Selected research
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
+      title: Meet the group. Start a conversation.
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        Meet the researchers behind our work and get in touch about research collaboration or opportunities to join the group.
+
+        [Meet the team](/people/) · [Tools & databases](/tool-db/) · [Contact us](/contact/)
     design:
       columns: '1'
 ---
