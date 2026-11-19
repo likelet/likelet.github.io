@@ -13,27 +13,29 @@
 
   <div class="row">
     {{ range .Pages.ByDate.Reverse }}
+      {{ $tool := . }}
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card h-100">
-          {{ with .Params.image }}
-            <img src="{{ . }}" class="card-img-top" alt="{{ $.Title }}">
+          {{ with .Resources.GetMatch "featured.*" }}
+            {{ $preview := .Fit "640x400 webp" }}
+            <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}" class="card-img-top tool-preview" alt="{{ $tool.Title }} preview" loading="lazy" decoding="async">
           {{ end }}
           <div class="card-body">
             <h5 class="card-title">
               {{ if .Params.event_url }}
-                <a href="{{ .Params.event_url }}" target="_blank">{{ .Title }}</a>
+                <a href="{{ .Params.event_url }}" target="_blank" rel="noopener">{{ .Title }}</a>
               {{ else }}
                 {{ .Title }}
               {{ end }}
             </h5>
             <p class="card-text">{{ .Params.summary }}</p>
             {{ with .Params.url_code }}
-              <a href="{{ . }}" class="btn btn-sm btn-primary" target="_blank">
+              <a href="{{ . }}" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
                 <i class="fab fa-github"></i> Code
               </a>
             {{ end }}
             {{ if .Params.event_url }}
-              <a href="{{ .Params.event_url }}" class="btn btn-sm btn-outline-primary" target="_blank">
+              <a href="{{ .Params.event_url }}" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">
                 <i class="fas fa-external-link-alt"></i> Visit
               </a>
             {{ end }}

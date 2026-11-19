@@ -20,7 +20,7 @@ organizations:
     url: 'https://sysucc.org.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Cancer genomics, bioinformatics and cancer immunotherapy 
+bio: Cancer bioinformatics and multi-omics research on tumor heterogeneity, the immune microenvironment and treatment response.
 
 interests:
   - Cancer multi-omics algorithms, software and databases
@@ -71,14 +71,17 @@ user_groups:
 - Supervisors
 ---
 
-Professor Qi Zhao is a Principal Investigator and doctoral supervisor at Sun Yat-sen University Cancer Center (SYSUCC). He directs the Tumor Micro-ecology Research Platform and specializes in gastrointestinal-cancer bioinformatics, with a focus on:
+Qi Zhao is a professor and principal investigator at Sun Yat-sen University Cancer Center (SYSUCC). His work focuses on cancer bioinformatics, particularly the molecular and cellular processes that shape gastrointestinal cancer progression and treatment response.
 
-- Developing multi-omics algorithms and open-source software for large-scale tumor data  
-- Identifying genomic alterations and molecular subtypes in digestive-system cancers  
-- Mining gut-microbiome signatures that modulate therapy resistance  
+He develops computational methods, open-source software and databases to study cancer using genomic, transcriptomic, single-cell and clinical data. By integrating these data, his research examines tumor heterogeneity, molecular subtypes and interactions within the tumor microenvironment.
 
-Dr. Zhao earned a B.S. in bioengineering (2005-2009) and a Ph.D. in bioinformatics (2011-2016). After a post-doctoral fellowship at SYSUCC (2016-2019), he was promoted to Associate Professor in 2019 and to full Professor in 2025.
+His main research directions include:
 
-He has published more than 40 SCI papers, including *Cancer Cell*, *JAMA Oncology*, *Nature Communications*, *Cell Reports Medicine* and *Nucleic Acids Research* . He is the principal inventor on six granted patents, has registered three software copyrights, and has led or participated in several National Natural Science Foundation of China projects and the National Key R&D Program . His work has been recognized with the First Prize of the Chinese Medical Science & Technology Award, and he was selected for the Guangdong "Special Support Program" for top young talents.
+- **Cancer multi-omics and computational methods:** developing algorithms and reproducible analytical approaches for complex cancer datasets.
+- **Tumor heterogeneity and treatment resistance:** studying genomic alterations, cellular states and molecular mechanisms associated with different therapeutic responses.
+- **Cancer immunotherapy and biomarkers:** using multi-omics analysis and machine learning to investigate the immune microenvironment and identify candidate markers of response and prognosis.
+- **Microbiome and tumor micro-ecology:** exploring relationships between gut microbes, tumor-associated immune cells and treatment response.
+
+Across these areas, he works with clinical and experimental collaborators to connect computational findings with biological mechanisms and clinically relevant questions.
 
 [Institutional profile](https://english.sysucc.org.cn/info_26.aspx?itemid=820) · [Latest research updates](/#research-updates)

@@ -11,7 +11,7 @@ sections:
       text: |
         I am Qi Zhao, a professor and principal investigator at Sun Yat-sen University Cancer Center.
 
-        Our group studies gastrointestinal cancers through computational biology, machine learning, and multi-omics analysis.
+        My research focuses on cancer bioinformatics: developing multi-omics methods and studying how tumor heterogeneity and the immune microenvironment shape treatment response in gastrointestinal cancers.
       cta:
         label: About Qi Zhao
         url: /author/zhao-qi/
