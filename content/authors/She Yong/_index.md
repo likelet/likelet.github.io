@@ -1,6 +1,7 @@
 ---
 # Display name
-title: She Yong
+title: Yong She（佘勇）
+slug: she-yong
 
 # Full name (for SEO)
 first_name: 
@@ -15,7 +16,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Cancer Genomics, Machine Learning, and Website UI
+role: Master's Student
 
 # Organizations/Affiliations
 organizations:
@@ -55,5 +56,5 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Team members
+  - Alumni
 ---
