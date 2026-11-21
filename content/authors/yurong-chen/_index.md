@@ -2,7 +2,7 @@
 title: Yurong Chen
 slug: yurong-chen
 role: Research Assistant
-weight: 70
+weight: 10
 user_groups:
   - Team members
 ---

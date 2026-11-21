@@ -4,6 +4,7 @@ slug: yihuan-lin
 show_profile: true
 role: Master's Student
 bio: Yihuan Lin develops algorithms for integrating multi-omics data in cancer research.
+weight: 90
 user_groups:
   - Team members
 ---
