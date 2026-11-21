@@ -1,14 +1,11 @@
 {{ $block := .wcBlock }}
 <div class="research-directions">
-  <p class="section-kicker">Our research</p>
   <h2>{{ $block.content.title }}</h2>
-  <p class="directions-intro">Connecting computational methods with biological mechanisms and clinically relevant questions.</p>
   <div class="directions-grid">
     {{ range $i, $section := split $block.content.text "### " }}
       {{ if $i }}
         {{ $lines := split (trim $section " \n\r") "\n" }}
         <article class="direction">
-          <span class="direction-number" aria-hidden="true">0{{ $i }}</span>
           <h3>{{ index $lines 0 | markdownify }}</h3>
           {{ delimit (after 1 $lines) "\n" | markdownify }}
         </article>

@@ -3,21 +3,12 @@ title:
 date: 2022-10-24
 type: landing
 sections:
-  - block: hero
+  - block: lab-feature
+    id: lab-feature
     content:
-      title: Understanding cancer through data.
-      eyebrow: Qi Lab · Cancer bioinformatics
-      portrait: true
-      text: |
-        We are a cancer bioinformatics research group led by Professor Qi Zhao at Sun Yat-sen University Cancer Center.
-
-        We develop multi-omics methods to study how tumor heterogeneity and the immune microenvironment shape treatment response in gastrointestinal cancers.
-      cta:
-        label: Explore our research
-        url: /#research
-      cta_alt:
-        label: Read our publications
-        url: /publications/
+      title: From tissue to multi-omics
+      field: Tumor microenvironment
+      institution: Sun Yat-sen University Cancer Center
   - block: research-directions
     id: research
     content:

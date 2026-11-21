@@ -1,0 +1,16 @@
+{{ $content := .wcBlock.content }}
+<div class="qi-identity">
+  <div class="qi-wordmark">
+    <h1>{{ $content.title }}</h1>
+    <p class="qi-discipline">{{ $content.field }}</p>
+    <p>{{ $content.institution }}</p>
+    <nav class="qi-links" aria-label="Explore Qi Lab">
+      <a href="#research">Research <span aria-hidden="true">↓</span></a>
+      <a href="{{ "publications/" | relLangURL }}">Publications <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+  <figure class="qi-profile">
+    <img src="{{ "uploads/tissue-multiomics.webp" | relURL }}" width="1200" height="940" alt="Three regions in a tissue section linked to DNA, RNA and protein feature matrices" fetchpriority="high">
+    <figcaption>Tissue neighborhoods linked to molecular profiles · Schematic</figcaption>
+  </figure>
+</div>

@@ -348,3 +348,49 @@ a:focus-visible, button:focus-visible { outline: 3px solid #b36c32; outline-offs
   .research-grid { grid-template-columns: 1fr; }
 }
 @media(prefers-reduced-motion:reduce) { .card, .publication-img { transition: none !important; } }
+
+/* Homepage hero: spatial neighborhoods and their molecular profiles. */
+#lab-feature {
+  background: #f4f2ed;
+  color: #191919;
+  padding: clamp(3rem, 6vw, 6rem) 0;
+}
+.qi-identity {
+  display: grid;
+  grid-template-columns: 1.22fr .78fr;
+  gap: 4vw;
+  align-items: center;
+  min-height: 68vh;
+}
+.qi-wordmark { grid-column: 2; grid-row: 1; }
+.qi-wordmark h1 {
+  font: 900 clamp(3.2rem, 6vw, 6rem)/.99 Arial, Helvetica, sans-serif;
+  color: inherit;
+  letter-spacing: -.065em;
+  margin: 0 0 1.1rem;
+}
+#lab-feature p { color: inherit; font: 15px/1.5 Arial, sans-serif; margin: 0; }
+#lab-feature .qi-discipline { font-size: clamp(20px, 2vw, 31px); font-weight: 600; }
+.qi-links { display: flex; gap: 1.4rem; align-items: center; flex-wrap: wrap; margin-top: 2rem; }
+.qi-links a { color: inherit; border-bottom: 1px solid; padding: .4rem 0; }
+.qi-links a:first-child { background: #171717; color: #fff; padding: .5rem .85rem; border: 0; }
+.qi-profile { grid-column: 1; grid-row: 1; margin: 0; }
+.qi-profile img { display: block; width: 100%; height: auto; }
+.qi-profile figcaption { color: #4a4845; font: 13px/1.5 Arial, sans-serif; margin-top: .5rem; }
+#lab-feature ~ .home-section { background: #fff; color: #222; }
+#lab-feature ~ .home-section:nth-of-type(odd) { background: #f4f4f4; }
+#lab-feature ~ .home-section a { color: #902c20; }
+#lab-feature ~ .home-section .section-kicker, #lab-feature ~ .home-section .research-year { color: #646464; }
+#research .directions-grid { margin-top: 2rem; }
+#research .direction { border-color: #a0a0a0; }
+#research .direction-resource { background: #efefef; }
+#selected-research .research-card { background: #fff; color: #262626; border-color: #bcbcbc; border-top-color: #b33223; }
+.dark #lab-feature ~ .home-section { background: #202020; color: #eee; }
+.dark #lab-feature ~ .home-section a { color: #ffa397; }
+.dark #research .direction-resource, .dark #selected-research .research-card { background: #303030; color: #eee; }
+.dark #lab-feature ~ .home-section .section-kicker, .dark #lab-feature ~ .home-section .research-year { color: #ccc; }
+@media(max-width: 767px) {
+  .qi-identity { grid-template-columns: 1fr; gap: 2rem; min-height: auto; }
+  .qi-wordmark, .qi-profile { grid-column: 1; grid-row: auto; }
+  .qi-links { margin-top: 1rem; }
+}
