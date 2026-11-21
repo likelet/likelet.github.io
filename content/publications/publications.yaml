@@ -358,7 +358,7 @@
   image: luoxiaoj.jpg
   description: In this work, we reviewed current Genetic and Epigenetic Biomarkers of Prognostic and Predictive Significance in Stage II/III Colorectal Cancer"
   number: 22
-  authors: Luo, Xiao-Jing, <strong>Qi Zhao<sup>†</sup></strong>, Jia Liu, Jia-Bo Zheng, Miao-Zhen Qiu, Huai-Qiang Ju, and Rui-Hua Xu\*.	
+  authors: Xiao-Jing Luo, <strong>Qi Zhao<sup>†</sup></strong>, Jia Liu, Jia-Bo Zheng, Miao-Zhen Qiu, Huai-Qiang Ju, and Rui-Hua Xu\*.
   link:
     url: https://doi.org/10.1016/j.ymthe.2020.12.017	
     display: Molecular Therapy, 2021 Feb 3;29(2):587-596.	
@@ -415,7 +415,7 @@
   
 - title: "autoRPA: A web server for constructing cancer staging models by recursive partitioning analysis"	
   number: 16
-  authors: Xie, Yubin, Xiaotong Luo, Huiqin Li, Qingxian Xu, Zhihao He, <strong>Qi Zhao*</strong>, Zhixiang Zuo\*, and Jian Ren\*	
+  authors: Yubin Xie, Xiaotong Luo, Huiqin Li, Qingxian Xu, Zhihao He, <strong>Qi Zhao*</strong>, Zhixiang Zuo\*, and Jian Ren\*
   link:
     url: https://doi.org/10.1016/j.csbj.2020.10.038	
     display: Computational and Structural Biotechnology Journal, 2020 Nov 10;18:3361-3367. 	
@@ -447,7 +447,7 @@
   
 - title: "BBCancer: an expression atlas of blood-based biomarkers in the early diagnosis of cancers"	
   number: 12
-  authors: Zuo, Zhixiang<sup>†</sup>, Huanjing Hu<sup>†</sup>, Qingxian Xu, Xiaotong Luo, Di Peng, Kaiyu Zhu, Qi Zhao*, Yubin Xie*, Jian Ren*	
+  authors: Zhixiang Zuo<sup>†</sup>, Huanjing Hu<sup>†</sup>, Qingxian Xu, Xiaotong Luo, Di Peng, Kaiyu Zhu, Qi Zhao*, Yubin Xie*, Jian Ren*
   link:
     url: https://doi.org/10.1093/nar/gkz942	
     display: Nucleic Acids Research, 2020 Jan 8;48(D1):D789-D796	
@@ -527,7 +527,7 @@
   
 - title: "VirusMap: A visualization database for the influenza A virus"	
   number: 2
-  authors: Yubin Xie, Xiaotong Luo, Zhihao He, Yueyuan Zheng, Zhixiang Zuo, <strong>Qi Zhao\*</strong>, Yanyan Miao\*, Jian Ren\*	
+  authors: Yubin Xie, Xiaotong Luo, Zhihao He, Yueyuan Zheng, Zhixiang Zuo, <strong>Qi Zhao\*</strong>, Yanyan Miao\*, Jian Ren\*
   link:
     url: https://doi.org/10.1016/j.jgg.2017.04.002	
     display: Journal of Genetics and Genomics, 2017 May 20;44(5):281-284.	

@@ -1,0 +1,16 @@
+{{- with . -}}
+  {{- $line := replaceRE `,?\s+(and|&)\s+` ", " . -}}
+  {{- $parts := split (strings.TrimSuffix "." (trim $line " \n\t")) "," -}}
+  <div class="publication-authors">
+    {{- range $i, $part := $parts -}}
+      {{- $plain := trim (replace ($part | plainify) "\\*" "*") " \n\t" -}}
+      {{- $name := replaceRE `\s*[†*]+$` "" $plain -}}
+      {{- $marks := trim (strings.TrimPrefix $name $plain) " " -}}
+      {{- $highlight := or (in $part "<strong>") (in (slice "Qi Zhao" "Zhao Q" "Zhao Qi") $name) -}}
+      {{- if $i }}{{ " " }}{{ end -}}
+      <span class="publication-author">{{ if $highlight }}<strong>{{ $name }}</strong>{{ else }}{{ $name }}{{ end }}{{ with $marks }}<sup>{{ . }}</sup>{{ end }}{{ if lt (add $i 1) (len $parts) }},{{ end }}</span>
+    {{- end -}}
+  </div>
+{{- else -}}
+  <span>Author information missing</span>
+{{- end -}}

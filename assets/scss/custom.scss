@@ -18,7 +18,18 @@ $text-medium: #4b5563;
   }
 }
 
+.publication-highlights {
+  column-gap: 1.25rem;
+}
+@media (min-width: 992px) {
+  .publication-highlights { column-count: 2; }
+}
 .publication-highlights .card {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  break-inside: avoid;
+  margin: 0 0 1.25rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
@@ -28,25 +39,20 @@ $text-medium: #4b5563;
   }
 }
 
-/* 作者列表样式 */
-.authors-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-
-  .author-name {
-    margin-right: 0.3rem;
-
-    &:not(:last-child):after {
-      content: ",";
-    }
-
-    &.font-bold {
-      font-weight: 700;
-      color: $primary-color;
-    }
-  }
+/* Keep each citation name, its contribution marks and comma on the same line. */
+.publication-authors {
+  color: #4b5563;
+  font-size: .92rem;
+  line-height: 1.65;
 }
+.publication-author {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.publication-author strong { color: #1c4f92; font-weight: 700; }
+.dark .publication-authors { color: #d1d5db; }
+.dark .publication-author strong { color: #a8cfff; }
 
 /* 图片容器 */
 .publication-img-container {

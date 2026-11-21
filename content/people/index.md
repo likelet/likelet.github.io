@@ -16,6 +16,7 @@ sections:
           - Team members
           - Joint students
           - Grad Students
+          - Undergraduate Students
           - Administration
           - Visitors
           - Alumni

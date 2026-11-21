@@ -41,12 +41,9 @@
 
     {{ range $query }}
       {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
-      {{/* Only link to profile page for superusers */}}
       {{ $link := "" }}
-      {{ if .Params.superuser }}
-        {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
-          {{ $link = .RelPermalink }}
-        {{ end }}
+      {{ if or .Params.superuser .Params.show_profile }}
+        {{ $link = .RelPermalink }}
       {{ end }}
       <div class="col-12 col-sm-auto people-person">
         {{ $src := "" }}
