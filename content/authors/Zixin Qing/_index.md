@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Zixin Qing
+title: Zixin Qin
+slug: zixin-qing
 
 # Full name (for SEO)
 first_name: 
@@ -15,7 +16,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc in oncology
+role: Postdoctoral Fellow
 
 # Organizations/Affiliations
 organizations:
@@ -23,7 +24,7 @@ organizations:
     url: 'http://sysucc.org.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Postdoc in oncology
+bio: Former postdoctoral fellow in oncology.
 
 interests:
   - Artificial Intelligence
@@ -55,5 +56,5 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Team members
+  - Alumni
 ---

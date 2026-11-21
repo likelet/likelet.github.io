@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Bao Ruxiang
+title: Ruxiang Bao
+slug: bao-ruxiang
 
 # Full name (for SEO)
 first_name: 
@@ -55,5 +56,5 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Team members
+  - Alumni
 ---
