@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ruxiang Bao
+title: Ruxiang Bao（包汝翔）
 slug: bao-ruxiang
 
 # Full name (for SEO)

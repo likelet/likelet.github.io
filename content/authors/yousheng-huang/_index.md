@@ -1,5 +1,5 @@
 ---
-title: 黄酉生
+title: Yousheng Huang（黄酉生）
 slug: yousheng-huang
 role: Master's Student
 weight: 76

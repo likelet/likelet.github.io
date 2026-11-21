@@ -1,5 +1,5 @@
 ---
-title: 陈衍行
+title: Yanxing Chen（陈衍行）
 slug: yanxing-chen
 role: Doctoral Student
 weight: 75

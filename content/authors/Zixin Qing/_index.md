@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Zixin Qin
+title: Zixin Qin（秦梓欣）
 slug: zixin-qing
 
 # Full name (for SEO)

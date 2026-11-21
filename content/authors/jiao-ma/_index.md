@@ -1,5 +1,5 @@
 ---
-title: 马娇
+title: Jiao Ma（马娇）
 slug: jiao-ma
 role: Master's Student
 weight: 72

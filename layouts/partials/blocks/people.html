@@ -39,6 +39,7 @@
       </div>
     {{end}}
 
+    {{ $show_avatar := ne . "Alumni" }}
     {{ range $query }}
       {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
       {{ $link := "" }}
@@ -47,9 +48,9 @@
       {{ end }}
       <div class="col-12 col-sm-auto people-person">
         {{ $src := "" }}
-        {{ if site.Params.features.avatar.gravatar }}
+        {{ if and $show_avatar site.Params.features.avatar.gravatar }}
           {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
-        {{ else if $avatar }}
+        {{ else if and $show_avatar $avatar }}
           {{ $avatar_image := $avatar.Fill "270x270 Center" }}
           {{ $src = $avatar_image.RelPermalink }}
         {{ end }}

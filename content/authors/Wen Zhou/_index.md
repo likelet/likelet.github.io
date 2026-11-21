@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Wen Zhou
+title: Wen Zhou（周雯）
+slug: wen-zhou
 
 # Full name (for SEO)
 first_name: 
