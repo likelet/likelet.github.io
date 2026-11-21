@@ -5,19 +5,45 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Qi Zhao & Research Group
-      eyebrow: Cancer bioinformatics · Sun Yat-sen University Cancer Center
+      title: Understanding cancer through data.
+      eyebrow: Qi Lab · Cancer bioinformatics
       portrait: true
       text: |
-        I am Qi Zhao, a professor and principal investigator at Sun Yat-sen University Cancer Center.
+        We are a cancer bioinformatics research group led by Professor Qi Zhao at Sun Yat-sen University Cancer Center.
 
-        My research focuses on cancer bioinformatics: developing multi-omics methods and studying how tumor heterogeneity and the immune microenvironment shape treatment response in gastrointestinal cancers.
+        We develop multi-omics methods to study how tumor heterogeneity and the immune microenvironment shape treatment response in gastrointestinal cancers.
       cta:
-        label: About Qi Zhao
-        url: /author/zhao-qi/
+        label: Explore our research
+        url: /#research
       cta_alt:
-        label: Explore our publications
+        label: Read our publications
         url: /publications/
+  - block: research-directions
+    id: research
+    content:
+      title: Research directions
+      text: |
+        ### Cancer Immunotherapy Biomarkers  
+        Mining multi-omics data to identify biomarkers of immunotherapy response, with applications in patient selection and combination treatment strategies.
+        
+        ### Cancer Genomics Software & Databases  
+        Developing open-source algorithms, containerized workflows and curated databases to help researchers reproduce and extend large-scale cancer genomics studies.
+        
+        ### Targeted Therapy Strategies for GI Cancers  
+        Analyzing exome, transcriptome and drug-screen data to investigate therapeutic targets in gastrointestinal cancers, connect molecular findings with inhibitors and study treatment resistance using liquid biopsies.
+        
+        ### Machine Learning for Cancer Diagnosis & Prognosis  
+        Developing interpretable models using pathology images, radiology scans and routine laboratory data to study early detection and prognosis.
+        
+        ### Gut Microbiota & Tumor Microenvironment  
+        Studying changes in gut microbiota during immune checkpoint inhibitor treatment, investigating causal relationships in germ-free models and exploring probiotic strategies for anti-tumor immunity.
+    design:
+      columns: '1'
+      css_class: research-overview
+  - block: selected-research
+    id: selected-research
+    content:
+      title: Selected research
   - block: collection
     id: research-updates
     content:
@@ -36,32 +62,6 @@ sections:
     design:
       view: card
       columns: '1'
-  - block: markdown
-    id: research
-    content:
-      title: Research directions
-      text: |
-        ### Cancer Immunotherapy Biomarkers  
-        Mining multi-omics data to spot biomarkers that flag immunotherapy responders, then packaging those signals into clinical assays for patient selection and combo dosing.
-        
-        ### Cancer Genomics Software & Databases  
-        Shipping open-source algorithms, containerized workflows and curated databases that let the community reproduce and extend large-scale cancer genomics studies.
-        
-        ### Targeted Therapy Strategies for GI Cancers  
-        Scanning exome, transcriptome and drug-screen datasets to surface druggable lesions in GI tumors, mapping trials to the right inhibitors and tracing resistance with real-time liquid biopsies.
-        
-        ### Machine Learning for Cancer Diagnosis & Prognosis  
-        Training lightweight models on pathology images, radiology scans and routine labs to flag early-stage tumors, forecast survival and explain calls in clinician-friendly heat-maps.
-        
-        ### Gut Microbiota & Tumor Microenvironment  
-        Tracking gut-bug shifts during ICI treatment, testing causality in germ-free models and crafting next-gen probiotics that sharpen anti-tumor immunity.
-    design:
-      columns: '1'
-      css_class: research-overview
-  - block: selected-research
-    id: selected-research
-    content:
-      title: Selected research
   - block: markdown
     content:
       title: Meet the group. Start a conversation.

@@ -7,8 +7,8 @@ main:
   - name: About Qi Zhao
     url: author/zhao-qi/
     weight: 10
-  - name: Research updates
-    url: /#research-updates
+  - name: Research
+    url: /#research
     weight: 20
   - name: People
     url: people
