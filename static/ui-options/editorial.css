@@ -1,0 +1,167 @@
+/* Academic editorial: a white page, a serif masthead and a ruled contents list. */
+body.editorial {
+  --ed-serif: "Baskerville", "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+  --ed-sans: "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #fff;
+  color: #111;
+  font-family: var(--ed-sans);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+html:lang(zh) body.editorial {
+  --ed-serif: "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "STSong", "SimSun", serif;
+}
+
+.editorial .wrap {
+  width: min(calc(100% - 9vw), 1240px);
+  margin-inline: auto;
+}
+
+.editorial .mast {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .75rem 2.5rem;
+  padding-block: 1.4rem .9rem;
+  border-bottom: 1px solid #111;
+}
+
+.editorial .wordmark {
+  color: inherit;
+  font: 700 clamp(2.2rem, 3.8vw, 3.6rem)/1 Georgia, "Times New Roman", serif;
+  letter-spacing: -.07em;
+  text-decoration: none;
+}
+
+.editorial .site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem clamp(.8rem, 2.6vw, 2.5rem);
+  font-size: .875rem;
+  font-weight: 550;
+}
+
+.editorial .site-nav a, .editorial .paper a { color: inherit; text-decoration: none; }
+.editorial .site-nav a:hover, .editorial .paper h3 a:hover { text-decoration: underline; text-underline-offset: .18em; }
+.editorial .hero, .editorial .work, .editorial .about { scroll-margin-top: 2rem; }
+.editorial .hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, .85fr);
+  align-items: center;
+  gap: clamp(2rem, 7vw, 7rem);
+  padding-block: clamp(3rem, 6.8vw, 6.75rem) clamp(3rem, 6vw, 5.75rem);
+}
+
+.editorial .hero-copy, .editorial .paper-body { min-width: 0; }
+.editorial .eyebrow, .editorial .paper-meta, .editorial .portrait figcaption {
+  font-family: var(--ed-sans);
+  font-size: .8125rem;
+  font-weight: 500;
+}
+
+.editorial .eyebrow {
+  margin: 0 0 1.15rem;
+  letter-spacing: .095em;
+  text-transform: uppercase;
+}
+
+.editorial .hero h1 {
+  max-width: 17ch;
+  margin: 0;
+  font: 400 clamp(3.4rem, 5.6vw, 6rem)/1 var(--ed-serif);
+  letter-spacing: -.055em;
+  text-wrap: balance;
+}
+
+.editorial .deck {
+  max-width: 44rem;
+  margin: 1.5rem 0 0;
+  font: 400 clamp(1.1rem, 1.55vw, 1.4rem)/1.55 var(--ed-serif);
+}
+
+.editorial .links { display: flex; flex-wrap: wrap; gap: .5rem 1.6rem; margin-top: 1.45rem; }
+.editorial .links a, .editorial .about a, .editorial footer a {
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  font: 600 .875rem/1.5 var(--ed-sans);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .35em;
+}
+
+.editorial .portrait { width: 100%; max-width: 24rem; margin: 0; justify-self: end; }
+.editorial .portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1.06;
+  object-fit: cover;
+  object-position: center 32%;
+  filter: grayscale(1);
+}
+
+.editorial .portrait figcaption { margin-top: .75rem; line-height: 1.45; }
+.editorial .work {
+  padding-block: clamp(1.6rem, 3vw, 2.4rem) clamp(2.5rem, 5vw, 4.5rem);
+  border-top: 3px double #111;
+}
+
+.editorial .section-head { display: flex; flex-direction: column; gap: .3rem; margin-bottom: 1.5rem; }
+.editorial .section-head .eyebrow { margin: 0; }
+.editorial h2 {
+  margin: 0;
+  font: 400 clamp(2rem, 3.35vw, 3.4rem)/1.18 var(--ed-serif);
+  letter-spacing: -.042em;
+}
+
+.editorial .paper {
+  display: grid;
+  grid-template-columns: minmax(8rem, .55fr) minmax(0, 2fr) 2.75rem;
+  align-items: start;
+  column-gap: clamp(1rem, 3.2vw, 3rem);
+  border-top: 1px solid #c5c5c5;
+  padding-block: clamp(1.2rem, 2.35vw, 2rem);
+}
+
+.editorial .paper-meta { display: flex; flex-wrap: wrap; gap: .3rem .65rem; padding-top: .25rem; line-height: 1.55; }
+.editorial .paper h3 { margin: 0; font: 400 clamp(1.5rem, 2.65vw, 2.45rem)/1.17 var(--ed-serif); letter-spacing: -.035em; }
+.editorial .paper-body p { margin: .55rem 0 0; max-width: 65ch; font-size: 1rem; line-height: 1.6; }
+.editorial .paper-arrow { display: grid; place-items: center; width: 2.75rem; min-height: 2.75rem; font-size: 1.4rem; }
+.editorial .paper-arrow:hover { outline: 1px solid #111; }
+
+.editorial .about { padding-block: 2rem 3.5rem; border-top: 1px solid #111; }
+.editorial .about p { max-width: 66ch; margin: 1rem 0 .6rem; font: 1.15rem/1.6 var(--ed-serif); }
+.editorial footer.wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; border-top: 1px solid #111; padding-block: 1.4rem 3rem; font-size: .875rem; }
+.editorial footer p { margin: 0; }
+.editorial a:focus-visible, .editorial button:focus-visible { outline: 2px solid #111; outline-offset: 4px; }
+
+html:lang(zh) .editorial .hero h1 { font-size: clamp(2.85rem,4.55vw,5rem); max-width: 12em; letter-spacing: -.04em; line-height: 1.24; }
+html:lang(zh) .editorial .deck { font: 1.11rem/1.88 var(--ed-sans); }
+html:lang(zh) .editorial h2, html:lang(zh) .editorial h3 { line-height: 1.42; letter-spacing: -.025em; }
+
+@media (max-width: 760px) {
+  .editorial .wrap { width: calc(100% - 2.5rem); }
+  .editorial .mast { align-items: center; gap: .65rem 1.4rem; padding-block: 1rem; }
+  .editorial .site-nav { gap: .3rem 1rem; font-size: .8125rem; }
+  .editorial .hero { grid-template-columns: minmax(0, 1fr); gap: 1.8rem; padding-block: 2.5rem; }
+  .editorial .hero h1 { font-size: clamp(2.85rem, 8.5vw, 4.5rem); max-width: 19ch; }
+  .editorial .portrait { max-width: 29rem; justify-self: start; }
+  .editorial .portrait img { aspect-ratio: 1.9; object-position: center 31%; }
+  .editorial .paper { grid-template-columns: minmax(0, 1fr) 2.5rem; gap: .45rem .55rem; }
+  .editorial .paper-meta { grid-column: 1; grid-row: 1; }
+  .editorial .paper-body { grid-column: 1; grid-row: 2; }
+  .editorial .paper-arrow { grid-column: 2; grid-row: 2; }
+  html:lang(zh) .editorial .hero h1 { font-size: clamp(2.35rem, 6.9vw, 3.1rem); }
+  html:lang(zh) .editorial .deck { font-size: 1rem; }
+}
+
+@media (max-width: 400px) {
+  .editorial .wrap { width: calc(100% - 2rem); }
+  .editorial .site-nav { gap: .3rem .72rem; }
+  .editorial .hero h1 { font-size: 2.75rem; }
+}
